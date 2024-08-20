@@ -12,13 +12,13 @@ import { useMediaQuery } from "react-responsive";
 const MembershipHome = () => {
   const joyItems = [
     {
-      imgSrc: "https://i.ibb.co/Y2bJkQB/Card-2.png",
+      imgSrc: "https://i.ibb.co/H4VRMNr/card-2-66c2e2de49edb.webp",
     },
     {
-      imgSrc: "https://i.ibb.co/cLcxbrj/Card-1.png",
+      imgSrc: "https://i.ibb.co/GFk72gg/card-1-66c2e32b80c0a.webp",
     },
     {
-      imgSrc: "https://i.ibb.co/J39MfFt/Card-3.png",
+      imgSrc: "https://i.ibb.co/pJvM6jk/card-3-66c2e36a6fb9a.webp",
     },
   ];
 

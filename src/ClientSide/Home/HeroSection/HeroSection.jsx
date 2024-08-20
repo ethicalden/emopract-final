@@ -66,7 +66,7 @@ const HeroSection = () => {
           <div className="relative ">
             <div
               style={{
-                backgroundImage: `url(${"https://i.ibb.co/z516r3G/Home1.jpg"})`,
+                backgroundImage: `url(${"https://i.ibb.co/r5gsGQr/Home1-1.webp"})`,
               }}
               className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] xs:h-[65vh] md:h-[80vh]   lg:h-[100vh] 2xl:h-[100vh]"
@@ -76,7 +76,7 @@ const HeroSection = () => {
           <div className="relative">
             <div
               style={{
-                backgroundImage: `url(${"https://i.ibb.co/2h94zH7/Home2.jpg"})`,
+                backgroundImage: `url(${"https://i.ibb.co/qph4tdY/home2-66c24f2eea212.webp"})`,
               }}
               className="
           bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] md:h-[80vh] xs:h-[65vh]  lg:h-[100vh]  "
@@ -87,7 +87,7 @@ const HeroSection = () => {
           <div className="relative">
             <div
               style={{
-                backgroundImage: `url(${"https://i.ibb.co/Kbw0bm7/H3.jpg"})`,
+                backgroundImage: `url(${"https://i.ibb.co/FBvDyvs/h3-66c2569f4d6c9.webp"})`,
               }}
               className="
           bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] md:h-[80vh]  xs:h-[65vh] lg:h-[80vh]  "
@@ -102,7 +102,7 @@ const HeroSection = () => {
           <div className="relative ">
             <div
               style={{
-                backgroundImage: `url(${"https://i.ibb.co/z6BtGRD/slide1.jpg"})`,
+                backgroundImage: `url(${"https://i.ibb.co/Z1wPh5H/slide1-66c2487c625ee.webp"})`,
               }}
               className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[80vh]   md:h-[70vh] lg:h-[70vh]  xl:h-[100vh] 2xl:h-[100vh]"
@@ -112,7 +112,7 @@ const HeroSection = () => {
           <div className="relative">
             <div
               style={{
-                backgroundImage: `url(${"https://i.ibb.co/JKxcRp2/slide2.jpg"})`,
+                backgroundImage: `url(${"https://i.ibb.co/sKzZ31F/slide2-66c249a540200.webp"})`,
               }}
               className="
           bg-no-repeat bg-center bg-cover w-[100%] h-[80vh]  xs:h-[65vh] md:h-[70vh] lg:h-[70vh]   xl:h-[100vh] 2xl:h-[100vh]"
@@ -123,7 +123,7 @@ const HeroSection = () => {
           <div className="relative">
             <div
               style={{
-                backgroundImage: `url(${"https://i.ibb.co/m6f44xh/slide3.jpg"})`,
+                backgroundImage: `url(${"https://i.ibb.co/x6T29PS/slide3-66c249f946393.webp"})`,
               }}
               className="
           bg-no-repeat bg-center bg-cover w-[100%] h-[80vh]  xs:h-[65vh] md:h-[70vh] lg:h-[70vh]  xl:h-[100vh] 2xl:h-[100vh]"

@@ -21,7 +21,7 @@ const EventHeroSection = () => {
       <div>
         <div
           style={{
-            backgroundImage: `url(${"https://i.ibb.co/rv5GPqN/WDW-0942.jpg"})`,
+            backgroundImage: `url(${"https://i.ibb.co/xjFQn85/wdw-0942-66c3af200be71.webp"})`,
           }}
           className="bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] xs:h-[65vh] lg:h-[100vh] backgroundImage brig flex flex-col justify-between"
         >

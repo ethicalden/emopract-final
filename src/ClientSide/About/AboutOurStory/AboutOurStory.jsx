@@ -57,7 +57,7 @@ const AboutOurStory = () => {
               <div className="flex justify-center  ">
                 <div
                   style={{
-                    backgroundImage: `url(${"https://i.ibb.co/0Xx2hzY/GG.jpg"})`,
+                    backgroundImage: `url(${"https://i.ibb.co/T2M4Mt6/gg-66c2e77e0192c.webp"})`,
                   }}
                   className="bg-no-repeat bg-cover bg-center h-[231px]  w-[274px] lg:w-[300px] lg:h-[250px] 2xl:w-[498px] 2xl:h-[366px] rounded-[10px]"
                 >
@@ -76,7 +76,7 @@ const AboutOurStory = () => {
               <div className="flex justify-center hidden md:block md:pl-[20px] 2xl:pl-[40px] ">
                 <div
                   style={{
-                    backgroundImage: `url(${"https://i.ibb.co/R9z024r/about-Client3.jpg"})`,
+                    backgroundImage: `url(${"https://i.ibb.co/f470SgD/about-Client3.webp"})`,
                   }}
                   className="bg-no-repeat bg-cover bg-center h-[231px] w-[274px] rounded-[10px] lg:w-[300px] lg:h-[250px] 2xl:w-[498px] 2xl:h-[366px]"
                 >
@@ -98,7 +98,7 @@ const AboutOurStory = () => {
               <div className="flex justify-center pt-[135px] md:hidden ">
                 <div
                   style={{
-                    backgroundImage: `url(${"https://i.ibb.co/R9z024r/about-Client3.jpghttps://i.ibb.co/0Xx2hzY/GG.jpg"})`,
+                    backgroundImage: `url(${"https://i.ibb.co/f470SgD/about-Client3.webp"})`,
                   }}
                   className="bg-no-repeat bg-cover bg-center h-[231px] w-[274px] rounded-[10px] "
                 >

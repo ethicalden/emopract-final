@@ -26,7 +26,7 @@ const AboutOurTeam = () => {
       <div className="h-[300px] md:h-[500px] lg:h-[700px] xl:h-[700px] 2xl:h-[800px] pt-[35px] md:pb-[60px] ">
         <img
           className="h-full w-full object-cover rounded-[10px]"
-          src="https://i.ibb.co/vdVsSqt/about-Our-Team.png"
+          src="https://i.ibb.co/WW042Wx/aboutourteam-66c2ea4a36efa.webp"
           alt=""
         />
       </div>

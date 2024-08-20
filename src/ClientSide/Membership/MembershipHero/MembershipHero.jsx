@@ -21,7 +21,7 @@ const MembershipHero = () => {
       <div>
         <div
           style={{
-            backgroundImage: `url(${"https://i.ibb.co/Mnd19WK/Whats-App-Image-2.jpg"})`,
+            backgroundImage: `url(${"https://i.ibb.co/WcM6dNf/whatsapp-image-2-66c2e63151f0f.webp"})`,
           }}
           className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] xs:h-[65vh] lg:h-[100vh]  backgroundImage brig flex flex-col justify-between"

@@ -23,7 +23,7 @@ const MembershipCard = () => {
         <div className="relative bg-[#7EA254]  rounded-[10px]">
           <div className="absolute top-[-95px]  right-[130px]  md:top-[-95px]  md:right-[60px] lg:right-[90px] xl:right-[150px] 2xl:right-[60px]">
             <img
-              src="https://i.ibb.co/tzt19m8/icon.png"
+              src="https://i.ibb.co/8rHMr3S/icon-66c3acc886557.webp"
               alt="Logo"
               className="h-24 "
             />
@@ -167,7 +167,7 @@ const MembershipCard = () => {
         <div className="relative mt-[80px]    rounded-[10px]">
           <div className="absolute top-[-95px] right-[130px] md:right-[60px] lg:top-[-95px] lg:right-[100px] xl:top-[-95px] xl:right-[150px]">
             <img
-              src="https://i.ibb.co/tzt19m8/icon.png"
+              src="https://i.ibb.co/8rHMr3S/icon-66c3acc886557.webp"
               alt="Logo"
               className="h-24 mx-auto mb-4"
             />
@@ -300,7 +300,7 @@ const MembershipCard = () => {
         <div className="relative mt-[80px]">
           <div className="absolute top-[-95px] right-[130px]  md:top-[-95px] md:right-[60px] lg:right-[90px] xl:right-[150px] 2xl:right-[60px]">
             <img
-              src="https://i.ibb.co/tzt19m8/icon.png"
+              src="https://i.ibb.co/8rHMr3S/icon-66c3acc886557.webp"
               alt="Logo"
               className="h-24 mx-auto mb-4"
             />

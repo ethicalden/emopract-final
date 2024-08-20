@@ -7,7 +7,7 @@ const AboutOurMission = () => {
       <div className="relative h-[400] md:h-[450px] xl:h-[500px] 2xl:h-[700px] group">
         <img
           className="h-full w-full  object-cover rounded-[10px]"
-          src={"https://i.ibb.co/xfpNh0B/services-Wellness2.png"}
+          src={"https://i.ibb.co/FKtYyVT/serviceswellness2-66c2ea02f0a39.webp"}
           alt=""
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-5 rounded-b-[10px] opacity-0 transform translate-y-5 transition-opacity  duration-300 ease-in-out group-hover:opacity-80 group-hover:translate-y-0">

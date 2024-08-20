@@ -23,7 +23,7 @@ const joyItems = [
   {
     link: "/joy-card-four",
     imgSrc: "https://i.ibb.co/JvRpKxS/WDW-1142.jpg",
-    LgImg: "https://i.ibb.co/8b0Y7DR/comp.jpg",
+    LgImg: "https://i.ibb.co/tYDrSmq/comp-66c261211556d.webp",
     title: "Companion",
     subtitle: "People forego so many temptations because ",
     extendedSubtitle:
@@ -32,7 +32,7 @@ const joyItems = [
   {
     link: "/joy-card-one",
     imgSrc: "https://i.ibb.co/423h2Lg/WDW-0921.jpg",
-    LgImg: "https://i.ibb.co/cYp5Dmb/outing.jpg",
+    LgImg: "https://i.ibb.co/6msRzQN/outing-66c261c51ba44.webp",
     title: "Outing",
     subtitle: "The mundane matters of everyday life take up a lot of ",
     extendedSubtitle:
@@ -42,7 +42,7 @@ const joyItems = [
   {
     link: "/joy-card-three",
     imgSrc: "https://i.ibb.co/gmnnD9M/ent.png",
-    LgImg: "https://i.ibb.co/gmnnD9M/ent.png",
+    LgImg: "https://i.ibb.co/3WtZn6B/ent-66c2615532d12.webp",
     title: "Entertainment",
     subtitle: "Sometimes we just want someone to sit with us ",
     extendedSubtitle:
@@ -51,7 +51,7 @@ const joyItems = [
   {
     link: "/joy-card-four",
     imgSrc: "https://i.ibb.co/H7nxFwq/A7406038.png",
-    LgImg: "https://i.ibb.co/H7nxFwq/A7406038.png",
+    LgImg: "https://i.ibb.co/x69TdwQ/A7406038-1.webp",
     title: "Tech Help",
     subtitle: "People forego so many temptations because ",
     extendedSubtitle:
@@ -60,7 +60,7 @@ const joyItems = [
   {
     link: "/joy-card-one",
     imgSrc: "https://i.ibb.co/ZcntB06/IMG-2009.jpg",
-    LgImg: "https://i.ibb.co/MpH0hjQ/regWork.jpg",
+    LgImg: "https://i.ibb.co/f0jwhyg/regwork-66c262946005f.webp",
     title: "Regular Work",
     subtitle: "The mundane matters of everyday life take up a lot ",
     extendedSubtitle:
@@ -70,13 +70,14 @@ const joyItems = [
   {
     link: "/joy-card-two",
     imgSrc: "https://i.ibb.co/sCvYVxn/A7405947.png",
-    LgImg: "https://i.ibb.co/sCvYVxn/A7405947.png",
+    LgImg: "https://i.ibb.co/PrnyML3/A7405947.webp",
     title: "Entertainment at Home",
     subtitle: "Every senior citizen you talk to will have a common ",
     extendedSubtitle:
       "grouse. If people are coming over for a meal or a gathering, the once competent host now finds herself unsure. All such worries can be taken care of with a single phone call. A hobby that was once a passion can now fill retirement hours with pure pleasure, thanks to our team. Even if it is something as simple as having someone to play a board game with, watch a film, or read out a favourite book, our Joys of Living stars are always ready to bring you the little Joys of Life. ",
   },
 ];
+// b
 const PopularService = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
@@ -138,7 +139,9 @@ const PopularService = () => {
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src={"https://i.ibb.co/JvRpKxS/WDW-1142.jpg"}
+                      src={
+                        "https://i.ibb.co/fDZTC6q/wdw-1142-66c25b7e935d6.webp"
+                      }
                       alt=""
                     />
                   </div>
@@ -159,7 +162,7 @@ const PopularService = () => {
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src={"https://i.ibb.co/423h2Lg/WDW-0921.jpg"}
+                      src={"https://i.ibb.co/XtSvxZh/WDW-0921-1.webp"}
                       alt=""
                     />
                   </div>
@@ -182,7 +185,7 @@ const PopularService = () => {
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src={"https://i.ibb.co/gmnnD9M/ent.png"}
+                      src={"https://i.ibb.co/Tv7T8ms/ent.webp"}
                       alt=""
                     />
                   </div>
@@ -206,7 +209,7 @@ const PopularService = () => {
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src={"https://i.ibb.co/H7nxFwq/A7406038.png"}
+                      src={"https://i.ibb.co/x69TdwQ/A7406038-1.webp"}
                       alt=""
                     />
                   </div>
@@ -228,7 +231,7 @@ const PopularService = () => {
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src={"https://i.ibb.co/ZcntB06/IMG-2009.jpg"}
+                      src={"https://i.ibb.co/g6jTWB4/IMG-2009.webp"}
                       alt=""
                     />
                   </div>
@@ -250,7 +253,7 @@ const PopularService = () => {
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src={"https://i.ibb.co/fMVjtDD/A7405947.png"}
+                      src={"https://i.ibb.co/PrnyML3/A7405947.webp"}
                       alt=""
                     />
                   </div>
@@ -286,7 +289,7 @@ const PopularService = () => {
               <div className="getinTmgParent">
                 <img
                   className="w-full h-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/QMg2gBT/home-Our-Services-Free-Con.png"
+                  src="https://i.ibb.co/605DMmX/homeourservicesfreecon-66c260b27b8a4.webp"
                   alt=""
                 />
               </div>

@@ -22,7 +22,7 @@ const Footer = () => {
               <img
                 className=" h-full w-full  rounded-full"
                 size={10}
-                src={"https://i.ibb.co/tzt19m8/icon.png"}
+                src={"https://i.ibb.co/8rHMr3S/icon-66c3acc886557.webp"}
                 alt=""
               />
             </div>

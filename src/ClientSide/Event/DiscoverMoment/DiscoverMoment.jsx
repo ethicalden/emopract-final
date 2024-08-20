@@ -41,14 +41,14 @@ const DiscoverMoment = () => {
             <div className="img1 w-full">
               <img
                 className="h-full w-full object-cover  rounded-[10px]"
-                src={"https://i.ibb.co/J3sNg9m/A7405850.jpg"}
+                src={"https://i.ibb.co/n0RR8hw/a7405850-66c2e3f298574.webp"}
                 alt=""
               />
             </div>
             <div className="img2 w-full">
               <img
                 className="h-full w-full object-cover rounded-[10px]"
-                src={"https://i.ibb.co/x3k42kN/A7406096.jpg"}
+                src={"https://i.ibb.co/NtyL9bn/a7406096-66c2e41eb3423.webp"}
                 alt=""
               />
             </div>
@@ -73,7 +73,9 @@ const DiscoverMoment = () => {
         >
           <img
             className="h-full w-full object-cover rounded-[10px]"
-            src={"https://i.ibb.co/Rg6vsF2/IMG-20240727-011328.jpg"}
+            src={
+              "https://i.ibb.co/Mn3hh8g/img-20240727-011328-66c2e48663bb5.webp"
+            }
             alt=""
           />
         </div>
@@ -117,14 +119,14 @@ const DiscoverMoment = () => {
                 <div className="discoverimg1 w-full">
                   <img
                     className="h-full w-full object-cover rounded-[15px]"
-                    src={"https://i.ibb.co/J3sNg9m/A7405850.jpg"}
+                    src={"https://i.ibb.co/n0RR8hw/a7405850-66c2e3f298574.webp"}
                     alt=""
                   />
                 </div>
                 <div className="discoverimg2 w-full">
                   <img
                     className="h-full w-full object-cover  rounded-[15px]"
-                    src={"https://i.ibb.co/x3k42kN/A7406096.jpg"}
+                    src={"https://i.ibb.co/NtyL9bn/a7406096-66c2e41eb3423.webp"}
                     alt=""
                   />
                 </div>
@@ -146,7 +148,9 @@ const DiscoverMoment = () => {
                 <div className="h-[118px]  2xl:h-[242px]   xl:h-[200px]  lg:h-[150px] md:h-[100px]  w-full">
                   <img
                     className="h-full w-full object-cover  rounded-[15px]"
-                    src={"https://i.ibb.co/Rg6vsF2/IMG-20240727-011328.jpg"}
+                    src={
+                      "https://i.ibb.co/Mn3hh8g/img-20240727-011328-66c2e48663bb5.webp"
+                    }
                     alt=""
                   />
                 </div>
@@ -160,7 +164,9 @@ const DiscoverMoment = () => {
                 >
                   <img
                     className="h-full w-full object-cover rounded-[15px]"
-                    src={"https://i.ibb.co/Mnd19WK/Whats-App-Image-2.jpg"}
+                    src={
+                      "https://i.ibb.co/WcM6dNf/whatsapp-image-2-66c2e63151f0f.webp"
+                    }
                     alt=""
                   />
                 </div>

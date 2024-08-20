@@ -344,7 +344,7 @@
     /* ami */
     /* ======= */ 
     /* === */
-    md:text-[22px] lg:text-[19px] xl:text-[30px] 2xl:text-[48px] 2xl:leading-[50px]
+    md:text-[22px] lg:text-[19px] xl:text-[25px] 2xl:text-[48px] 2xl:leading-[50px]
     /* =========== */
     font-Ubuntu font-bold;
   }

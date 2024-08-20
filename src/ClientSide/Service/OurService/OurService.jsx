@@ -18,7 +18,7 @@ const OurService = () => {
         <div className="ourServiceImgParent  mt-[25px] md:mt-[25px] lg:mt-[25px] 2xl:mt-[25px] xl:mt-[25px]">
           <img
             className="h-full w-full object-cover rounded-[10px]"
-            src={"https://i.ibb.co/xfZH3bK/H3.jpg"}
+            src={"https://i.ibb.co/FBvDyvs/h3-66c2569f4d6c9.webp"}
             alt=""
           />
         </div>

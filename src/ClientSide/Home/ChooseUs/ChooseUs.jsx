@@ -48,7 +48,7 @@ const ChooseUs = () => {
           <div className="chooseUsImgParent">
             <img
               className="h-full w-full object-cover  rounded-[10px]"
-              src="https://i.ibb.co/gRLF35Z/WDW-0772-3.jpg"
+              src="https://i.ibb.co/s688C0L/WDW-0772-3.webp"
               alt=""
             />
           </div>

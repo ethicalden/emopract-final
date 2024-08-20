@@ -10,8 +10,8 @@ import "./JoyLiving.css";
 const joyItems = [
   {
     link: "/joy-card-four",
-    imgSrc: "https://i.ibb.co/p19Zq64/WDW-1142.jpg",
-    LgImg: "https://i.ibb.co/8cHSKp3/comp.jpg",
+    imgSrc: "https://i.ibb.co/fDZTC6q/wdw-1142-66c25b7e935d6.webp",
+    LgImg: "https://i.ibb.co/tYDrSmq/comp-66c261211556d.webp",
     title: "Companion",
     subtitle: "People forego so many temptations because ",
     extendedSubtitle:
@@ -19,8 +19,8 @@ const joyItems = [
   },
   {
     link: "/joy-card-one",
-    imgSrc: "https://i.ibb.co/k9p5XNG/WDW-0921.jpg",
-    LgImg: "https://i.ibb.co/XFBN20g/outing.jpg",
+    imgSrc: "https://i.ibb.co/XtSvxZh/WDW-0921-1.webp",
+    LgImg: "https://i.ibb.co/6msRzQN/outing-66c261c51ba44.webp",
     title: "Outing",
     subtitle: "The mundane matters of everyday life take up a lot of ",
     extendedSubtitle:
@@ -29,8 +29,8 @@ const joyItems = [
 
   {
     link: "/joy-card-three",
-    imgSrc: "https://i.ibb.co/XyZk6qS/ent.png",
-    LgImg: "https://i.ibb.co/XyZk6qS/ent.png",
+    imgSrc: "https://i.ibb.co/Tv7T8ms/ent.webp",
+    LgImg: "https://i.ibb.co/3WtZn6B/ent-66c2615532d12.webp",
     title: "Entertainment",
     subtitle: "Sometimes we just want someone to sit with us ",
     extendedSubtitle:
@@ -38,8 +38,8 @@ const joyItems = [
   },
   {
     link: "/joy-card-four",
-    imgSrc: "https://i.ibb.co/9VJs2M8/A7406038.png",
-    LgImg: "https://i.ibb.co/9VJs2M8/A7406038.png",
+    imgSrc: "https://i.ibb.co/x69TdwQ/A7406038-1.webp",
+    LgImg: "https://i.ibb.co/x69TdwQ/A7406038-1.webp",
     title: "Tech Help",
     subtitle: "People forego so many temptations because ",
     extendedSubtitle:
@@ -47,7 +47,7 @@ const joyItems = [
   },
   {
     link: "/joy-card-one",
-    imgSrc: "https://i.ibb.co/r05mFPb/IMG-2009.jpg",
+    imgSrc: "https://i.ibb.co/g6jTWB4/IMG-2009.webp",
     LgImg: "https://i.ibb.co/8rvxrzN/regWork.jpg",
     title: "Regular Work",
     subtitle: "The mundane matters of everyday life take up a lot ",
@@ -57,15 +57,15 @@ const joyItems = [
 
   {
     link: "/joy-card-two",
-    imgSrc: "https://i.ibb.co/4drSxsV/A7405947.png",
-    LgImg: "https://i.ibb.co/4drSxsV/A7405947.png",
+    imgSrc: "https://i.ibb.co/PrnyML3/A7405947.webp",
+    LgImg: "https://i.ibb.co/PrnyML3/A7405947.webp",
     title: "Entertainment at Home",
     subtitle: "Every senior citizen you talk to will have a common ",
     extendedSubtitle:
       "grouse. If people are coming over for a meal or a gathering, the once competent host now finds herself unsure. All such worries can be taken care of with a single phone call. A hobby that was once a passion can now fill retirement hours with pure pleasure, thanks to our team. Even if it is something as simple as having someone to play a board game with, watch a film, or read out a favourite book, our Joys of Living stars are always ready to bring you the little Joys of Life. ",
   },
 ];
-
+// \b
 const JoysLiving = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 

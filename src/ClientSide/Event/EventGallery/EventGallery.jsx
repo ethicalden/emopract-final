@@ -18,7 +18,7 @@ const EventGallery = () => {
               <div className="img1">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/Jt6h0FY/Independence-Day-Fusion-Celebration.jpg"
+                  src="https://i.ibb.co/B6K7DH0/independence-day-fusion-celebration-66c3b0bf15c6b.webp"
                   alt=""
                 />
               </div>
@@ -42,7 +42,7 @@ const EventGallery = () => {
               <div className="img2">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/Zgzn86d/Story-Telling-Session-2.png"
+                  src="https://i.ibb.co/T8hQJJj/story-telling-session-2-66c3b11556f09.webp"
                   alt=""
                 />
               </div>
@@ -68,7 +68,7 @@ const EventGallery = () => {
               <div className="img3">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/WyDd57z/Durga-Puja-Preview.jpg"
+                  src="https://i.ibb.co/WFvGbqR/durga-puja-preview-66c3b1a2dc41b.webp"
                   alt=""
                 />
               </div>
@@ -93,7 +93,7 @@ const EventGallery = () => {
           <div className="img4">
             <img
               className="h-full w-full object-fill rounded-[10px]"
-              src="https://i.ibb.co/NjLWNZq/emo-2.png"
+              src="https://i.ibb.co/Qf5n47b/emo-2-66c3b1ed6718e.webp"
               alt=""
             />
           </div>
@@ -119,7 +119,7 @@ const EventGallery = () => {
               <div className="img5">
                 <img
                   className="h-full w-full object-fill rounded-[10px] "
-                  src="https://i.ibb.co/kcr3kJx/Children-s-Day-Elders-Way.jpg"
+                  src="https://i.ibb.co/HDtWV10/Children-s-Day-Elders-Way.webp"
                   alt=""
                 />
               </div>
@@ -143,7 +143,7 @@ const EventGallery = () => {
               <div className="img6">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/fqt5vRP/Laugh-all-the-way-1.png"
+                  src="https://i.ibb.co/HPSgFdd/laugh-all-the-way-1-66c3b2f98195f.webp"
                   alt=""
                 />
               </div>
@@ -168,7 +168,7 @@ const EventGallery = () => {
               <div className="right5">
                 <img
                   className="h-full w-full object-fill rounded-[10px]"
-                  src="https://i.ibb.co/mSWHyPD/Xmas-to-New-Year-Party-copy-1.jpg"
+                  src="https://i.ibb.co/L9dDfL4/xmas-to-new-year-party-copy-1-66c3b33cdfbf6.webp"
                   alt=""
                 />
               </div>
@@ -191,7 +191,9 @@ const EventGallery = () => {
               <div className="right6">
                 <img
                   className="h-full w-full  rounded-[10px] object-cover"
-                  src={"https://i.ibb.co/tLwqsRB/Elders-Day-Out-Picnic.jpg"}
+                  src={
+                    "https://i.ibb.co/86tND6V/elders-day-out-picnic-66c3b400ed2a6.webp"
+                  }
                   alt=""
                 />
               </div>
@@ -219,7 +221,7 @@ const EventGallery = () => {
             <div className="img3">
               <img
                 className="h-full w-full  rounded-[10px]"
-                src="https://i.ibb.co/M7rg3R7/Elders-Film-Festival.jpg"
+                src="https://i.ibb.co/qx1z729/elders-film-festival-1-66c4162c5b3b4.webp"
                 alt=""
               />
             </div>
@@ -243,7 +245,7 @@ const EventGallery = () => {
               <div className="img1">
                 <img
                   className="h-full w-full rounded-[10px]"
-                  src="https://i.ibb.co/4frnxZ0/Holi-Hai-1.jpg"
+                  src="https://i.ibb.co/8KpwVPG/holi-hai-1-66c416852b55b.webp"
                   alt=""
                 />
               </div>
@@ -266,7 +268,7 @@ const EventGallery = () => {
               <div className="img2">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/SVZZL9G/Spiritual-Session-1.jpg"
+                  src="https://i.ibb.co/rMNbL1c/spiritual-session-1-66c416d52bd17.webp"
                   alt=""
                 />
               </div>
@@ -293,7 +295,7 @@ const EventGallery = () => {
               <div className="img1">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/jHtRKZk/Baishaki.jpg"
+                  src="https://i.ibb.co/RzbkbJ2/baishaki-66c4171e463f5.webp"
                   alt=""
                 />
               </div>
@@ -317,7 +319,7 @@ const EventGallery = () => {
               <div className="img2">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/V2hF2fW/an-evening-with-literature.png"
+                  src="https://i.ibb.co/RSJQFr5/an-evening-with-literature-66c4176782195.webp"
                   alt=""
                 />
               </div>
@@ -342,7 +344,7 @@ const EventGallery = () => {
               <div className="img3">
                 <img
                   className="h-full w-full object-fill rounded-[10px]"
-                  src="https://i.ibb.co/zf7v3sk/Live-musical-show-1.jpg"
+                  src="https://i.ibb.co/FxfdFhY/live-musical-show-1-66c4181fcd4cb.webp"
                   alt=""
                 />
               </div>
@@ -390,7 +392,7 @@ const EventGallery = () => {
                 <div className="relative img1 w-full ">
                   <img
                     className="h-full w-full object-cover rounded-[10px]"
-                    src="https://i.ibb.co/Jt6h0FY/Independence-Day-Fusion-Celebration.jpg"
+                    src="https://i.ibb.co/m523GZw/independence-day-fusion-celebration-66c418e04b0dd.webp"
                     alt=""
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
@@ -414,7 +416,7 @@ const EventGallery = () => {
               <div className="relative img2 w-full">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/Zgzn86d/Story-Telling-Session-2.png"
+                  src="https://i.ibb.co/T8hQJJj/story-telling-session-2-66c3b11556f09.webp"
                   alt=""
                 />
 
@@ -438,7 +440,7 @@ const EventGallery = () => {
               <div className="relative img3 w-full">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/WyDd57z/Durga-Puja-Preview.jpg"
+                  src="https://i.ibb.co/WFvGbqR/durga-puja-preview-66c3b1a2dc41b.webp"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
@@ -468,7 +470,7 @@ const EventGallery = () => {
               <div className="relative   2xl:h-[242px] xl:h-[242px] lg:h-[150px] md:h-[100px]">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/NjLWNZq/emo-2.png"
+                  src="https://i.ibb.co/Qf5n47b/emo-2-66c3b1ed6718e.webp"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
@@ -489,7 +491,7 @@ const EventGallery = () => {
               <div className="relative md:mt-[15px] xl:mt-[30px] 2xl:mt-[10px] lg:mt-[15px]   2xl:h-[478px] xl:h-[478px] lg:h-[300px] md:h-[200px]">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/kcr3kJx/Children-s-Day-Elders-Way.jpg"
+                  src="https://i.ibb.co/TLCNByx/childrens-day-elders-way-66c41b87a674b.webp"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
@@ -513,7 +515,7 @@ const EventGallery = () => {
               <div className="relative  2xl:h-[242px] xl:h-[242px] lg:h-[150px] md:h-[100px] ">
                 <img
                   className="h-full w-full object-cover  rounded-[10px]"
-                  src="https://i.ibb.co/fqt5vRP/Laugh-all-the-way-1.png"
+                  src="https://i.ibb.co/HPSgFdd/laugh-all-the-way-1-66c3b2f98195f.webp"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
@@ -537,7 +539,7 @@ const EventGallery = () => {
               >
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/mSWHyPD/Xmas-to-New-Year-Party-copy-1.jpg"
+                  src="https://i.ibb.co/L9dDfL4/xmas-to-new-year-party-copy-1-66c3b33cdfbf6.webp"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
@@ -565,7 +567,7 @@ const EventGallery = () => {
         >
           <img
             className="h-full w-full object-cover rounded-[10px]"
-            src="https://i.ibb.co/tLwqsRB/Elders-Day-Out-Picnic.jpg"
+            src="https://i.ibb.co/86tND6V/elders-day-out-picnic-66c3b400ed2a6.webp"
             alt=""
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
@@ -606,7 +608,7 @@ const EventGallery = () => {
               >
                 <img
                   className="h-full w-full  rounded-[10px]"
-                  src="https://i.ibb.co/M7rg3R7/Elders-Film-Festival.jpg"
+                  src="https://i.ibb.co/qx1z729/elders-film-festival-1-66c4162c5b3b4.webp"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
@@ -629,7 +631,7 @@ const EventGallery = () => {
               <div className="relative img3 w-full">
                 <img
                   className="h-full w-full  rounded-[10px]"
-                  src="https://i.ibb.co/4frnxZ0/Holi-Hai-1.jpg"
+                  src="https://i.ibb.co/8KpwVPG/holi-hai-1-66c416852b55b.webp"
                   alt=""
                 />
 
@@ -638,7 +640,7 @@ const EventGallery = () => {
                     <p className="dateEvent">19 Apr'24</p>
                   </div>
                   <div className="text-white">
-                    <h4 className="hoverTitleGallery">Baishaki </h4>
+                    <h4 className="hoverTitleGallery">Holi </h4>
                     <div className="flex items-center locationTextGallelry">
                       <FaLocationDot className="mr-2" />
                       <p>welcomng the season</p>
@@ -660,7 +662,7 @@ const EventGallery = () => {
               <div className="relative   2xl:h-[242px] xl:h-[242px] lg:h-[150px] md:h-[100px]">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/SVZZL9G/Spiritual-Session-1.jpg"
+                  src="https://i.ibb.co/rMNbL1c/spiritual-session-1-66c416d52bd17.webp"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
@@ -683,7 +685,7 @@ const EventGallery = () => {
               <div className="relative md:mt-[15px] xl:mt-[30px] 2xl:mt-[10px] lg:mt-[15px]   2xl:h-[478px] xl:h-[478px] lg:h-[300px] md:h-[200px]">
                 <img
                   className="h-full w-full  rounded-[10px]"
-                  src="https://i.ibb.co/zf7v3sk/Live-musical-show-1.jpg"
+                  src="https://i.ibb.co/FxfdFhY/live-musical-show-1-66c4181fcd4cb.webp"
                   alt=""
                 />
 
@@ -714,7 +716,7 @@ const EventGallery = () => {
               <div className="relative  2xl:h-[242px] xl:h-[242px] lg:h-[150px] md:h-[100px] ">
                 <img
                   className="h-full w-full  rounded-[10px]"
-                  src="https://i.ibb.co/jHtRKZk/Baishaki.jpg"
+                  src="https://i.ibb.co/RzbkbJ2/baishaki-66c4171e463f5.webp"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
@@ -738,7 +740,7 @@ const EventGallery = () => {
               >
                 <img
                   className="h-full w-full object-coverrounded-[10px]"
-                  src="https://i.ibb.co/V2hF2fW/an-evening-with-literature.png"
+                  src="https://i.ibb.co/RSJQFr5/an-evening-with-literature-66c4176782195.webp"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">

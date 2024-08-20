@@ -22,7 +22,7 @@ const NavbarContact = () => {
         className="
             bg-no-repeat   bg-top bg-cover h-[80vh] xs:h-[65vh] lg:h-[100vh] xl:h-[100vh] 2xl:h-[100vh]  flex flex-col justify-between"
         style={{
-          backgroundImage: `url(${"https://i.ibb.co/cF6zTKn/t2.jpg"})`,
+          backgroundImage: `url(${"https://i.ibb.co/8dSzJZg/t2-66c42000acf02.webp"})`,
         }}
       >
         <Navbar></Navbar>

@@ -4,38 +4,37 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Link } from "react-router-dom";
 import "./Weelness.css";
 
 const joyItems = [
   {
     link: "/joy-card-one",
-    imgSrc: "https://i.ibb.co/Twvnxvh/services-Wellness1.png",
+    imgSrc: "https://i.ibb.co/Gdr75vp/serviceswellness1-66c378bf1e1c8.webp",
     title: "Medical Support",
     // subtitle: "The mundane matters of everyday life take up a lot of time and energy"
   },
   {
     link: "/joy-card-two",
-    imgSrc: "https://i.ibb.co/xfpNh0B/services-Wellness2.png",
+    imgSrc: "https://i.ibb.co/FKtYyVT/serviceswellness2-66c2ea02f0a39.webp",
     title: "Medical Record",
     // subtitle: "Maintaining a healthy lifestyle with regular exercise and proper diet"
   },
   {
     link: "/joy-card-three",
-    imgSrc: "https://i.ibb.co/S3WKygw/services-Wellness3.png",
+    imgSrc: "https://i.ibb.co/dtgKgKd/serviceswellness3-66c3a72eb9fe4.webp",
     title: "Wellness",
     // subtitle: "Engaging in social activities to stay connected and mentally active"
   },
   {
     link: "/joy-card-four",
     imgSrc:
-      "https://i.ibb.co/CQpvSvX/Whats-App-Image-2024-07-30-at-1-42-05-PM.jpg",
+      "https://i.ibb.co/BGB7T7Y/whatsapp-image-2024-07-30-at-14205-pm-1-66c3ab5c96dfd.webp",
     title: "24 x 7 Support IVR",
     // subtitle: "Pursuing hobbies and interests to enrich life experiences"
   },
   {
     link: "/joy-card-five",
-    imgSrc: "https://i.ibb.co/pxpLdzk/ambulance.jpg",
+    imgSrc: "https://i.ibb.co/wMSSstn/ambulance-66c3a8fbce8fa.webp",
     title: "Emergency Assist Ambulance",
     // subtitle: "Pursuing hobbies and interests to enrich life experiences"
   },

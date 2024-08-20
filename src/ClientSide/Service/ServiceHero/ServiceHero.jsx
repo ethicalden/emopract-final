@@ -10,7 +10,7 @@ const ServiceHero = () => {
       <div>
         <div
           style={{
-            backgroundImage: `url(${"https://i.ibb.co/StRhjL7/sservice.jpg"})`,
+            backgroundImage: `url(${"https://i.ibb.co/DGsB8p1/sservice-66c374265161f.webp"})`,
           }}
           className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] xs:h-[65vh] lg:h-[100vh]  backgroundImage brig flex flex-col justify-between"

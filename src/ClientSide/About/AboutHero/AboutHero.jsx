@@ -24,7 +24,7 @@ const AboutHero = () => {
       <div className="">
         <div
           style={{
-            backgroundImage: `url(${"https://i.ibb.co/VV0NS4V/A7406383.jpg"})`,
+            backgroundImage: `url(${"https://i.ibb.co/PYCww6Q/a7406383-66c2e6c8eac64.webp"})`,
           }}
           className="
             bg-no-repeat bg-bottom bg-cover w-[100%] h-[80vh] xs:h-[65vh] lg:h-[100vh]  backgroundImage flex flex-col justify-between"

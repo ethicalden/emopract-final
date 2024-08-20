@@ -15,7 +15,7 @@ const EventGalleryNonEvents = () => {
               <div className="NonEventimg1">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/BwXJQgv/Independence-Day-Fusion-Celebration.png"
+                  src="https://i.ibb.co/B6K7DH0/independence-day-fusion-celebration-66c3b0bf15c6b.webp"
                   alt=""
                 />
               </div>
@@ -38,7 +38,7 @@ const EventGalleryNonEvents = () => {
               <div className="NonEventimg2">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/YN9s7Y4/Story-Telling-Session-3.png"
+                  src="https://i.ibb.co/8Dks2SK/story-telling-session-3-66c421fa65cc6.webp"
                   alt=""
                 />
               </div>
@@ -63,7 +63,7 @@ const EventGalleryNonEvents = () => {
               <div className="img3">
                 <img
                   className="h-full w-full object-cover rounded-[10px]"
-                  src="https://i.ibb.co/vqjmb0F/Durga-Puja-Preview.png"
+                  src="https://i.ibb.co/7KcJxyh/durga-puja-preview-66c42230c0e5a.webp"
                   alt=""
                 />
               </div>
@@ -88,7 +88,7 @@ const EventGalleryNonEvents = () => {
           <div className="NonEventimg4">
             <img
               className="h-full w-full  rounded-[10px]"
-              src="https://i.ibb.co/QCSfhPd/Children-s-Day-Elders-Way-3.png"
+              src="https://i.ibb.co/MnNPYXf/childrens-day-elders-way-3-66c422741e15d.webp"
               alt=""
             />
           </div>
@@ -112,7 +112,7 @@ const EventGalleryNonEvents = () => {
             <div className="NonEventimg5">
               <img
                 className="h-full w-full  rounded-[10px] object-cover"
-                src="https://i.ibb.co/FhnLd3D/Laugh-all-the-way.jpg"
+                src="https://i.ibb.co/H2cBcZz/laugh-all-the-way-66c422bd90723.webp"
                 alt=""
               />
             </div>
@@ -134,7 +134,7 @@ const EventGalleryNonEvents = () => {
             <div className="NonEventright5">
               <img
                 className="h-full w-full object-cover rounded-[10px]"
-                src="https://i.ibb.co/j4v2P5k/Elders-Film-Festival-1.jpg"
+                src="https://i.ibb.co/qx1z729/elders-film-festival-1-66c4162c5b3b4.webp"
                 alt=""
               />
             </div>
@@ -159,7 +159,7 @@ const EventGalleryNonEvents = () => {
             <div className="NonEventimg6">
               <img
                 className="h-full w-full object-cover rounded-[10px]"
-                src="https://i.ibb.co/MhrqWgy/Xmas-to-New-Year-Party.png"
+                src="https://i.ibb.co/TMYBndt/xmas-to-new-year-party-66c4236d56b2c.webp"
                 alt=""
               />
             </div>
@@ -182,7 +182,7 @@ const EventGalleryNonEvents = () => {
             <div className="NonEventright6">
               <img
                 className="h-full w-full  rounded-[10px] object-cover"
-                src="https://i.ibb.co/VjG1h0w/Spiritual-Session.png"
+                src="https://i.ibb.co/q5zK8xS/spiritual-session-66c423b13c465.webp"
                 alt=""
               />
             </div>
@@ -209,7 +209,7 @@ const EventGalleryNonEvents = () => {
             <div className="Baisakhimg">
               <img
                 className="h-full w-full object-cover rounded-[10px]"
-                src="https://i.ibb.co/kyWm9J6/Baishaki.jpg"
+                src="https://i.ibb.co/RzbkbJ2/baishaki-66c4171e463f5.webp"
                 alt=""
               />
             </div>
@@ -232,7 +232,7 @@ const EventGalleryNonEvents = () => {
             <div className="Rabindroimg4">
               <img
                 className="h-full w-full object-cover rounded-[10px]"
-                src="https://i.ibb.co/G2x4K0v/an-evening-with-literature-1.png"
+                src="https://i.ibb.co/RSJQFr5/an-evening-with-literature-66c4176782195.webp"
                 alt=""
               />
             </div>
@@ -278,14 +278,14 @@ const EventGalleryNonEvents = () => {
               <div className="img1 w-full">
                 <img
                   className="h-full w-full object-cover rounded-[20px]"
-                  src="https://i.ibb.co/BwXJQgv/Independence-Day-Fusion-Celebration.png"
+                  src="https://i.ibb.co/B6K7DH0/independence-day-fusion-celebration-66c3b0bf15c6b.webp"
                   alt=""
                 />
               </div>
               <div className="img2 w-full">
                 <img
                   className="h-full w-full object-cover  rounded-[20px]"
-                  src="https://i.ibb.co/P6z4Vsr/Story-Telling-Session-1.jpg"
+                  src="https://i.ibb.co/ysz4YPQ/story-telling-session-1-66c42592551ac.webp"
                   alt=""
                 />
               </div>
@@ -295,7 +295,7 @@ const EventGalleryNonEvents = () => {
               <div className="img3 w-full">
                 <img
                   className="h-full w-full object-cover  rounded-[20px]"
-                  src="https://i.ibb.co/vqjmb0F/Durga-Puja-Preview.png"
+                  src="https://i.ibb.co/7KcJxyh/durga-puja-preview-66c42230c0e5a.webp"
                   alt=""
                 />
               </div>
@@ -312,7 +312,7 @@ const EventGalleryNonEvents = () => {
               <div className="   2xl:h-[242px] xl:h-[242px] lg:h-[150px] md:h-[100px]">
                 <img
                   className="h-full w-full object-cover  rounded-[20px]"
-                  src="https://i.ibb.co/X8K6zwp/Children-s-Day-Elders-Way-2.png"
+                  src="https://i.ibb.co/jTmkj1W/childrens-day-elders-way-2-66c425fbd59b4.webp"
                   alt=""
                 />
               </div>
@@ -320,7 +320,7 @@ const EventGalleryNonEvents = () => {
               <div className=" md:mt-[10px] xl:mt-[30px] 2xl:mt-[30px] lg:mt-[10px]   2xl:h-[478px] xl:h-[478px] lg:h-[300px] md:h-[200px]">
                 <img
                   className="h-full w-full object-cover rounded-[20px]"
-                  src="https://i.ibb.co/BCRZWXH/Laugh-all-the-way-2.png"
+                  src="https://i.ibb.co/xLm6WWz/laugh-all-the-way-2-66c4263ea55ee.webp"
                   alt=""
                 />
               </div>
@@ -331,7 +331,7 @@ const EventGalleryNonEvents = () => {
               <div className="  2xl:h-[242px] xl:h-[242px] lg:h-[150px] md:h-[100px] ">
                 <img
                   className="h-full w-full object-cover  rounded-[20px]"
-                  src="https://i.ibb.co/j4v2P5k/Elders-Film-Festival-1.jpg"
+                  src="https://i.ibb.co/qx1z729/elders-film-festival-1-66c4162c5b3b4.webp"
                   alt=""
                 />
               </div>
@@ -342,7 +342,7 @@ const EventGalleryNonEvents = () => {
               >
                 <img
                   className="h-full w-full object-cover rounded-[20px]"
-                  src="https://i.ibb.co/RY5ttmM/Xmas-to-New-Year-Party-copy.jpg"
+                  src="https://i.ibb.co/L9dDfL4/xmas-to-new-year-party-copy-1-66c3b33cdfbf6.webp"
                   alt=""
                 />
               </div>
@@ -357,7 +357,7 @@ const EventGalleryNonEvents = () => {
         >
           <img
             className="h-full w-full object-cover rounded-[20px]"
-            src="https://i.ibb.co/6vCjzmd/Spiritual-Session.jpg"
+            src="https://i.ibb.co/q5zK8xS/spiritual-session-66c423b13c465.webp"
             alt=""
           />
         </div>
@@ -374,7 +374,7 @@ const EventGalleryNonEvents = () => {
           <div className="h-[233px] 2xl:h-full xl:h-full md:h-full lg:h-full w-full">
             <img
               className="h-full w-full object-cover rounded-[20px]"
-              src="https://i.ibb.co/kyWm9J6/Baishaki.jpg"
+              src="https://i.ibb.co/RzbkbJ2/baishaki-66c4171e463f5.webp"
               alt=""
             />
           </div>
@@ -382,7 +382,7 @@ const EventGalleryNonEvents = () => {
           <div className="DeskNonimg3 w-full">
             <img
               className="h-full w-full object-cover  rounded-[20px]"
-              src="https://i.ibb.co/G2x4K0v/an-evening-with-literature-1.png"
+              src="https://i.ibb.co/YyQymFv/an-evening-with-literature-66c429255c20a.webp"
               alt=""
             />
           </div>
