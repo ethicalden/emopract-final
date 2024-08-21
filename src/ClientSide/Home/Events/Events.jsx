@@ -153,7 +153,7 @@ const Events = () => {
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/pQqkvSf/image-05-1-66c2e16c78839.webp")] bg-no-repeat bg-center bg-cover h-[504px]'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
-                <h3 className="memberSliderTitle">Childern's Day</h3>
+                <h3 className="memberSliderTitle">Children's Day</h3>
                 <div className="flex items-center justify-start ">
                   {/* <IoLocationSharp className="text-[#7EA254]" /> */}
                   <div>
@@ -322,7 +322,7 @@ const Events = () => {
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/HDtWV10/Children-s-Day-Elders-Way.webp")] bg-no-repeat bg-center bg-cover h-[504px] '>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
-                <h3 className="memberSliderTitle">Childern's Day</h3>
+                <h3 className="memberSliderTitle">Children's Day</h3>
                 <div className="flex items-center justify-start ">
                   {/* <IoLocationSharp className="text-[#7EA254]" /> */}
                   <div>

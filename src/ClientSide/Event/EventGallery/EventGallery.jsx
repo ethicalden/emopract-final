@@ -128,7 +128,7 @@ const EventGallery = () => {
                   <p className="dateEvent">14 Nov'24</p>
                 </div>
                 <div className="text-white">
-                  <h4 className="hoverTitleGallery"> Childern's Day</h4>
+                  <h4 className="hoverTitleGallery"> Children's Day</h4>
                   <div className="flex items-center locationTextGallelry">
                     <FaLocationDot className="mr-2" />
                     <p>elders' way</p>
@@ -499,7 +499,7 @@ const EventGallery = () => {
                     <p className="dateEvent">14 Nov'24</p>
                   </div>
                   <div className="text-white">
-                    <h4 className="hoverTitleGallery"> Childern's Day</h4>
+                    <h4 className="hoverTitleGallery"> Children's Day</h4>
                     <div className="flex items-center locationTextGallelry">
                       <FaLocationDot className="mr-2" />
                       <p>elders' way</p>
