@@ -13,7 +13,7 @@ const EventGallery = () => {
 
         <div className="flex justify-between gap-x-[15px] ">
           <div>
-            {/* inde */}
+            {/* indep */}
             <div className="relative">
               <div className="img1">
                 <img

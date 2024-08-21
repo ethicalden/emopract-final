@@ -487,14 +487,6 @@
     font-Ubuntu font-medium;
   }
 
-  .img1 {
-    @apply h-[233px] 
-    2xl:h-[478px]
-    xl:h-[460px]
-    md:h-[200px]
-    lg:h-[300px];
-  }
-
   .discoverimg1 {
     @apply h-[233px] 
     2xl:h-[478px]
@@ -519,10 +511,18 @@
     md:h-[310px];
   }
 
+  .img1 {
+    @apply h-[233px] 
+    2xl:h-[478px]
+    xl:h-[400px]
+    md:h-[200px]
+    lg:h-[300px];
+  }
+
   .img2 {
     @apply h-[118px]  mt-[15px]
     2xl:h-[242px] 2xl:mt-[30px]
-    xl:h-[260px] xl:mt-[30px]
+    xl:h-[320px] xl:mt-[30px]
     lg:h-[150px] lg:mt-[15px]
     md:h-[100px] md:mt-[10px];
   }

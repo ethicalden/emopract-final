@@ -108,7 +108,7 @@ const PopularService = () => {
   return (
     <div>
       <div className="">
-        <div className="sectionGap md:mb-[100px] xs:mb-[0px]">
+        <div className="sectionGap  xs:mb-[0px]">
           <div className="md:text-center md:w-full">
             <p className="popularSmallText">Our Services</p>
             <h2 className="popularSmallTitle">

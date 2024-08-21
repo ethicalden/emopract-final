@@ -59,7 +59,6 @@ const Events = () => {
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Independence Day</h3>
                 <div className="flex items-center justify-start">
-                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
                   <div>
                     <p className="memberSliderSubtitle">
                       our pride ... our glory
