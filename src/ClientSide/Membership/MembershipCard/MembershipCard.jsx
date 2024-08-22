@@ -314,7 +314,7 @@ const MembershipCard = () => {
               <p className=" mt-4">Validity : 1 months</p>
               <p className="text-4xl font-bold text-white mt-2">10,000/-</p>
               <p className="text-white pt-[10px]">plan rate excluding GST</p>
-              <button className="mt-[20px] md:py-2 bg-white text-[#7EA254] font-semibold py-2 px-[100px] md:px-[40px] rounded-full md:text-[14px]">
+              <button className="mt-[20px]  bg-white text-[#7EA254] font-semibold py-2 px-[100px] md:text-[14px] md:py-2 md:px-[50px] lg:py-4 lg:px-[80px] lg:text-[18px] rounded-full ">
                 Apply Now
               </button>
             </div>
