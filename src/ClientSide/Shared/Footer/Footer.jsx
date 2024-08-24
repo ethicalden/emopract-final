@@ -102,15 +102,7 @@ const Footer = () => {
                 <a href="https://www.instagram.com/emopract_official/">
                   <FaInstagram size={28} className="footerSocailIcon" />
                 </a>
-                <a href="https://in.pinterest.com/emopract_official/">
-                  <FaPinterest size={28} className="footerSocailIcon" />
-                </a>
-              </div>
-              <div className="flex  pb-[15px] gap-x-[10px]">
-                <a href="https://x.com/emopract">
-                  {" "}
-                  <FaXTwitter size={28} className="footerSocailIcon" />
-                </a>
+
                 <a href="https://www.linkedin.com/company/emopract/?viewAsMember=true">
                   <FaLinkedinIn size={28} className="footerSocailIcon" />
                 </a>
