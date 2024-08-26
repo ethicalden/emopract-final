@@ -85,8 +85,8 @@ const PopularService = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
-        publicKey: "YOUR_PUBLIC_KEY",
+      .sendForm("service_qe04j75", "YOUR_TEMPLATE_ID", form.current, {
+        publicKey: "VUWc7PqsSgNMXsdOL",
       })
       .then(
         () => {
@@ -323,7 +323,10 @@ const PopularService = () => {
                     className="space-y-[20px] mt-[15px]"
                   >
                     <div className="inputParent">
-                      <label className="formTitle text-black" htmlFor="">
+                      <label
+                        className="formTitle text-black"
+                        htmlFor="full_name"
+                      >
                         Full Name
                       </label>
                       <input
@@ -335,23 +338,47 @@ const PopularService = () => {
                       />
                     </div>
                     <div className="inputParent">
-                      <label className="formTitle text-black" htmlFor="">
+                      <label
+                        className="formTitle text-black"
+                        htmlFor="mobile_number"
+                      >
                         Phone Number
                       </label>
-                      <input className="contactInpufeild " type="text" />
+                      <input
+                        className="contactInpufeild "
+                        type="text"
+                        name="from_number"
+                        id="mobile_number"
+                        required
+                      />
                     </div>
                     <div className="inputParent">
-                      <label className="formTitle text-black" htmlFor="">
+                      <label className="formTitle text-black" htmlFor="email">
                         Email Address
                       </label>
-                      <input className="contactInpufeild " type="text" />
+                      <input
+                        className="contactInpufeild "
+                        type="email"
+                        name="from_email"
+                        id="email"
+                        required
+                      />
                     </div>
                     <div className="inputParent">
-                      <label className="formTitle text-black" htmlFor="">
+                      <label
+                        className="formTitle text-black"
+                        htmlFor="from_message"
+                      >
                         {" "}
                         Message
                       </label>
-                      <input className="contactInpufeild " type="text" />
+                      <input
+                        className="contactInpufeild "
+                        type="text"
+                        name="from_message"
+                        id="from_message"
+                        required
+                      />
                     </div>
 
                     <div className="inputParent pt-[30px] pb-[25px]">
