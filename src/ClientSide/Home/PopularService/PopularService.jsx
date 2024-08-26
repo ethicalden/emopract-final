@@ -1,9 +1,10 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 // import companionSrc from "../../../../public/Images/Service/comp.jpg";
 // import entertainmentSrc from "../../../../public/Images/Service/ent.png";
 // import entHomeSrc from "../../../../public/Images/Service/entHome.jpg";
@@ -79,6 +80,24 @@ const joyItems = [
 ];
 // b
 const PopularService = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
+        publicKey: "YOUR_PUBLIC_KEY",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   const handleReadMoreClick = (e, index) => {
@@ -298,12 +317,22 @@ const PopularService = () => {
                   <h3 className="eventCardTitle text-[#7EA254]">
                     request for a session!
                   </h3>
-                  <form className="space-y-[20px] mt-[15px]">
+                  <form
+                    ref={form}
+                    onSubmit={sendEmail}
+                    className="space-y-[20px] mt-[15px]"
+                  >
                     <div className="inputParent">
                       <label className="formTitle text-black" htmlFor="">
                         Full Name
                       </label>
-                      <input className="contactInpufeild " type="text" />
+                      <input
+                        className="contactInpufeild "
+                        type="text"
+                        name="from_name"
+                        id="full_name"
+                        required
+                      />
                     </div>
                     <div className="inputParent">
                       <label className="formTitle text-black" htmlFor="">
@@ -326,9 +355,14 @@ const PopularService = () => {
                     </div>
 
                     <div className="inputParent pt-[30px] pb-[25px]">
-                      <button className="contactSendBtn bg-[#7EA254]  text-white">
+                      {/* <button className="contactSendBtn bg-[#7EA254]  text-white">
                         Send Now
-                      </button>
+                      </button> */}
+                      <input
+                        className="contactSendBtn bg-[#7EA254]  text-white"
+                        type="submit"
+                        value="Send Now"
+                      />
                     </div>
                   </form>
                 </div>

@@ -14,6 +14,7 @@ import NonEvents from "./ClientSide/NonEvents/NonEvents";
 import PrivacyPolicy from "./ClientSide/PrivacyPolicy/PrivacyPolicy";
 import TermsofUse from "./ClientSide/TermsOfUse/TermsofUse";
 import CarrierPage from "./ClientSide/Contact/CarrierPage/Carrier";
+import Ticket from "./ClientSide/Ticket/Ticket";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: "/membership",
     element: <Membership></Membership>,
+  },
+  {
+    path: "/ticket",
+    element: <Ticket></Ticket>,
   },
   {
     path: "/service",

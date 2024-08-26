@@ -1675,4 +1675,12 @@
     /* =========== */
     font-Varela font-normal;
   }
+
+  .ticketInput {
+    @apply text-[36px] leading-[43px] font-normal font-Ubuntu;
+  }
+
+  .ticketButton {
+    @apply text-[18px] leading-[20px] font-medium font-Ubuntu;
+  }
 }
