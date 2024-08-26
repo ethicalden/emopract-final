@@ -259,7 +259,7 @@ const CarrierPage = () => {
                 Success!
               </h3>
               <p className="text-sm leading-[1.5] text-gray-500 font-[500]">
-                We have received your request and will get back to you shortly.
+                We have received your info. Thank You!.
               </p>
             </div>
             <button onClick={handleGotItClick} className="contactSendBtn">
