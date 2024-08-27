@@ -1,12 +1,12 @@
 import TicketPage from "./TicketPage/TicketPage";
-import Events from "../Home/Events/Events";
 import Footer from "../Shared/Footer/Footer";
+import TicketEvent from "./TicketEvent/TicketEvent";
 
 const Ticket = () => {
   return (
     <div>
       <TicketPage></TicketPage>
-      <Events></Events>
+      <TicketEvent></TicketEvent>
       <Footer></Footer>
     </div>
   );

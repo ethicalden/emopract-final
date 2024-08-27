@@ -1676,11 +1676,89 @@
     font-Varela font-normal;
   }
 
+  .ticketInputDiv {
+    @apply mx-[16px] px-[16px] py-[10px] xs:mx-[16px] xs:px-[16px] xs:py-[10px]
+    /* --------- */
+     md:mx-[120px] md:px-[40px] md:py-[25px] 
+     /* ----- */
+     lg:mx-[180px]   lg:px-[40px] lg:py-[25px]
+     /* --- */
+     xl:mx-[240px]  xl:px-[63px] xl:py-[40px];
+  }
+
   .ticketInput {
-    @apply text-[36px] leading-[43px] font-normal font-Ubuntu;
+    @apply text-[16px]  leading-[19px] py-[10px]
+    /* ------ */
+   xs:text-[16px]  xs:leading-[19px] xs:py-[10px]
+    /* ------ */
+    md:text-[36px] md:leading-[43px] md:py-[13px]
+    /* ----------- */
+    lg:text-[36px] lg:leading-[43px] lg:py-[13px]
+    /* ------------ */
+    xl:text-[36px] xl:leading-[43px] xl:py-[13px]
+    /* ----------- */
+    font-normal font-Ubuntu;
   }
 
   .ticketButton {
-    @apply text-[18px] leading-[20px] font-medium font-Ubuntu;
+    @apply text-[16px] leading-[18px] px-[15px] py-[11px] rounded-full
+    /* ------- */
+    xs:text-[12px] xs:leading-[15px] xs:px-[10px] xs:py-[11px] xs:rounded-full
+    
+    /* --------------- */
+    md:text-[18px] md:leading-[20px] md:px-[32px] md:py-[24px] md:rounded-full
+    /* ---------- */
+    lg:text-[18px] lg:leading-[20px] lg:px-[32px] lg:py-[24px] lg:transition lg:whitespace-nowrap lg:rounded-full
+    
+    /* ----------- */
+    xl:text-[18px] xl:leading-[20px] xl:px-[32px] xl:py-[24px] xl:rounded-full
+    /* ---------- */
+    font-medium font-Ubuntu;
+  }
+
+  .formTitleTicket {
+    @apply text-[14px] leading-[19px]
+    /* =========== */
+    md:text-[14px] md:leading-[21px]
+    /* ===== */
+    lg:text-[16px] lg:leading-[23px]
+    /* ===== */
+    xl:text-[16px] xl:leading-[23px]
+    /* ======= */
+    2xl:text-[18px] 2xl:leading-[28px]
+    /* ====== */
+    font-Ubuntu font-medium;
+  }
+
+  .ticketOtpGetBtn {
+    @apply text-[14px] leading-[24px] py-[16px] px-[128px]
+    /* ----- */
+    xs:text-[12px] xs:leading-[24px] xs:py-[10px] xs:px-[128px]
+    /* ============ */
+    md:text-[14px] md:py-[8px]
+    /* ======= */
+    lg:text-[16px] lg:py-[15px]
+    /* ====== */
+    xl:text-[16px] xl:py-[15px]
+    /* ========= */
+    2xl:text-[18px] 2xl:py-[24px]
+    /* ========= */
+    font-Ubuntu font-medium  text-center text-white rounded-full;
+  }
+
+  .ticketVerifyBtn {
+    @apply text-[28px] leading-[32px]  py-[16px] px-[128px]
+    /* ----- */
+    xs:text-[24px] xs:leading-[24px] xs:py-[10px] xs:px-[128px]
+    /* ============ */
+    md:text-[14px] md:py-[8px]
+    /* ======= */
+    lg:text-[16px] lg:py-[15px]
+    /* ====== */
+    xl:text-[28px] xl:leading-[32px] xl:py-[34px] 
+    /* ========= */
+    2xl:text-[18px] 2xl:py-[24px]
+    /* ========= */
+    font-Ubuntu font-medium  text-center text-white rounded-full;
   }
 }
