@@ -144,8 +144,12 @@ const Footer = () => {
             <Link to="/contact">
               <p className="footerMenuText">Contact Us</p>
             </Link>
+
             <Link to="/career">
               <p className="footerMenuText">Career</p>
+            </Link>
+            <Link to="/ticket">
+              <p className="footerMenuText">Ticket Page</p>
             </Link>
           </div>
 
