@@ -203,9 +203,12 @@ const TicketPage = () => {
 
           {/* Dialog 3 */}
           {isDialog3Open && (
-            <div className="fixed inset-0 2xl:px-[240px] xl:px-[150px] flex flex-wrap w-full justify-center items-center h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+            <div
+              className="fixed inset-0 2xl:px-[240px] xl:px-[150px] 
+            lg:px-[100px] md:px-[100px] px-[50px] xs:px-[40px]  flex flex-wrap w-full justify-center items-center h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]"
+            >
               <div
-                className="py-[50px] xs:px-[20px] xs:py-[25px] px-[24px] md:py-[60px] md:px-[90px] lg:py-[70px] lg:px-[100px] xl:py-[60px] xl:px-[80px]
+                className="py-[50px] xs:px-[20px] xs:py-[25px] px-[24px] md:py-[60px] md:px-[90px] lg:py-[60px] lg:px-[60px] xl:py-[60px] xl:px-[80px]
               2xl:py-[80px] 2xl:px-[110px] bg-white shadow-lg rounded-lg relative"
               >
                 <div className="text-center">
@@ -214,10 +217,13 @@ const TicketPage = () => {
                       <TiTickOutline size={35} className="text-white" />
                     </div>
 
-                    <h1 className="text-[24px] text-center leading-[28px] font-medium font-Ubuntu">
+                    <h1 className="text-[24px] text-center leading-[28px] font-medium font-Ubuntu lg:text-[30px]">
                       Thanks For Verifying
                     </h1>
-                    <p className="pt-[24px] pb-[20px] text-center text-[#1E1E1E99] font-Ubuntu font-normal leading-[18px] xl:text-[24px] xl:leading-[36px] text-[12px]">
+                    <p
+                      className="pt-[24px] pb-[20px] text-[12px] text-center text-[#1E1E1E99] font-Ubuntu font-normal leading-[18px] lg:text-[24px] lg:leading-[36px] 
+                    xl:text-[24px] xl:leading-[36px] "
+                    >
                       Lorem ipsum dolor sit amet consectetur. Enim proin
                       pellentesque erat mattis. Amet pharetra pellentesque
                       ultricies sit. Magna in nibh nisl vulputate purus in. At
