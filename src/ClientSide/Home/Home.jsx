@@ -9,7 +9,7 @@ import Reels from "./Reels/Reels";
 import Footer from "./../Shared/Footer/Footer";
 import Events from "./Events/Events";
 import Chatbot from "../Shared/Chatbot/Chatbot";
-
+// ---
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -19,7 +19,7 @@ const Home = () => {
     <div>
       <Helmet>
         <title>
-          Best Elder Care Company in Kolkata | Elder care | senior care
+          Best Elder Care Service in Kolkata | Elder care | senior care
         </title>
         <meta
           name="description"
