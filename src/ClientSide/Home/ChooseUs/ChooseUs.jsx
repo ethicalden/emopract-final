@@ -27,13 +27,14 @@ const ChooseUs = () => {
     
     font-Ubuntu font-bold text-[#7EA254]"
             >
-              emotionally for elders
+              Best Elder Care Company in Kolkata | Elder care | senior care
             </h3>
             <p className="chooseUsParaText">
-              Elders are our roots. They envelop us in affection, and motivate
-              us to fly high. In turn, we need to be their shade and support,
-              ensuring "Wellness" in their advanced years, and providing "Joys
-              of Living" when they need them the most
+              Experience the joys of living with our trusted elder care service
+              in Kolkata, where we provide compassionate support to enhance
+              quality of life. Our personalized services are designed to ensure
+              comfort and well-being. It's all about lifestyle—relish the
+              exclusive events specially curated for our seniors.
             </p>
 
             <Link to="/contact">
