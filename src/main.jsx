@@ -15,6 +15,8 @@ import PrivacyPolicy from "./ClientSide/PrivacyPolicy/PrivacyPolicy";
 import TermsofUse from "./ClientSide/TermsOfUse/TermsofUse";
 import CarrierPage from "./ClientSide/Contact/CarrierPage/Carrier";
 import Ticket from "./ClientSide/Ticket/Ticket";
+import ChatAi from "./ClientSide/Shared/Chatbot/ChatAi";
+import Gallery from "./ClientSide/Gallery/Gallery";
 
 const router = createBrowserRouter([
   {
@@ -25,10 +27,10 @@ const router = createBrowserRouter([
     path: "/event",
     element: <Event></Event>,
   },
-  // {
-  //   path: "/chatAi",
-  //   element: <ChatAi></ChatAi>,
-  // },
+  {
+    path: "/chatAi",
+    element: <ChatAi></ChatAi>,
+  },
   {
     path: "/NonEvents",
     element: <NonEvents></NonEvents>,
@@ -37,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact></Contact>,
+  },
+  {
+    path: "/gallery",
+    element: <Gallery></Gallery>,
   },
   {
     path: "/career",

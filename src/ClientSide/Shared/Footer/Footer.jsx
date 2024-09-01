@@ -5,10 +5,9 @@ import {
   FaFacebook,
   FaInstagram,
   FaLinkedinIn,
-  FaPinterest,
   FaYoutube,
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+
 import { IoSend } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
@@ -150,6 +149,9 @@ const Footer = () => {
             </Link>
             <Link to="/ticket">
               <p className="footerMenuText">Ticket Page</p>
+            </Link>
+            <Link to="/gallery">
+              <li>Gallery</li>
             </Link>
           </div>
 

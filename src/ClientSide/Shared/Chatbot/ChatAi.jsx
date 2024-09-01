@@ -35,7 +35,7 @@ const postResponseToAPI = async (responseContent) => {
   }
 };
 
-const Chatbot = () => {
+const ChatAi = () => {
   // Define the steps for the chatbot
   const steps = [
     {
@@ -129,4 +129,4 @@ const Chatbot = () => {
   );
 };
 
-export default Chatbot;
+export default ChatAi;
