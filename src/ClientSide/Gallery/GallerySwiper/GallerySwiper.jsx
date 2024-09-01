@@ -74,7 +74,7 @@ const GallerySlider = () => {
                 .map((src, idx) => (
                   <div
                     key={idx}
-                    className="flex justify-center items-center xs:h-[80px] h-[150px] md:h-[200px] lg:h-[280px] xl:h-[360px] 2xl:h-[360px]"
+                    className="flex justify-center items-center xs:h-[80px] h-[150px] md:h-[200px] lg:h-[250px] xl:h-[340px] 2xl:h-[360px]"
                   >
                     <img
                       src={src}
