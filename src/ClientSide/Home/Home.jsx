@@ -25,6 +25,10 @@ const Home = () => {
           name="description"
           content="Experience the joys of living with our trusted elder care service in Kolkata, where we provide compassionate support to enhance quality of life. Our personalized services are designed to ensure comfort and well-being. It's all about lifestyle—relish the exclusive events specially curated for our seniors."
         />
+        <link
+          rel="icon"
+          href="https://i.ibb.co/hCj5nHG/icon-66d577f2b87d4.webp"
+        />
       </Helmet>
       <HeroSection />
       <ChooseUs />
