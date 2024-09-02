@@ -24,7 +24,7 @@ const EventGallery = () => {
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                 <div className="text-white">
-                  <p className="dateEvent">15 August 2024</p>
+                  <p className="dateEvent">15 August 2025</p>
                 </div>
                 <div className="text-white">
                   <h4 className="hoverTitleGallery">Independence Day</h4>
@@ -199,7 +199,7 @@ const EventGallery = () => {
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                 <div className="text-white">
-                  <p className="dateEvent">25 Jan'24</p>
+                  <p className="dateEvent">25 Jan'25</p>
                 </div>
                 <div className="text-white">
                   <h4 className="hoverTitleGallery">Day Out</h4>
@@ -251,7 +251,7 @@ const EventGallery = () => {
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                 <div className="text-white">
-                  <p className="dateEvent">15 Mar'24</p>
+                  <p className="dateEvent">15 Mar'25</p>
                 </div>
                 <div className="text-white">
                   <h4 className="hoverTitleGallery">Holi</h4>
@@ -274,7 +274,7 @@ const EventGallery = () => {
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                 <div className="text-white">
-                  <p className="dateEvent">29 Mar'24</p>
+                  <p className="dateEvent">29 Mar'25</p>
                 </div>
                 <div className="text-white">
                   <h4 className="hoverTitleGallery">Meditation</h4>
@@ -301,7 +301,7 @@ const EventGallery = () => {
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                 <div className="text-white">
-                  <p className="dateEvent">19 Apr'24</p>
+                  <p className="dateEvent">19 Apr'25</p>
                 </div>
                 <div className="text-white">
                   <h4 className="hoverTitleGallery">Baishaki </h4>
@@ -325,7 +325,7 @@ const EventGallery = () => {
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                 <div className="text-white">
-                  <p className="dateEvent">17 May'24</p>
+                  <p className="dateEvent">17 May'25</p>
                 </div>
                 <div className="text-white">
                   <h4 className="hoverTitleGallery">Literary Evening</h4>
@@ -350,7 +350,7 @@ const EventGallery = () => {
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                 <div className="text-white">
-                  <p className="dateEvent">28 Jun'24</p>
+                  <p className="dateEvent">28 Jun'25</p>
                 </div>
                 <div className="text-white">
                   <h4 className="hoverTitleGallery">Cultural Show</h4>
@@ -397,7 +397,7 @@ const EventGallery = () => {
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                     <div className="text-white">
-                      <p className="DeskdateEvent">15 August 2024</p>
+                      <p className="DeskdateEvent">15 August 2025</p>
                     </div>
                     <div className="text-white">
                       <h4 className="DeskhoverTitleGallery">
@@ -572,7 +572,7 @@ const EventGallery = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
             <div className="text-white">
-              <p className="dateEvent">25 Jan'24</p>
+              <p className="dateEvent">25 Jan'25</p>
             </div>
             <div className="text-white">
               <h4 className="hoverTitleGallery">Day Out</h4>
@@ -637,7 +637,7 @@ const EventGallery = () => {
 
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                   <div className="text-white">
-                    <p className="dateEvent">19 Apr'24</p>
+                    <p className="dateEvent">19 Apr'25</p>
                   </div>
                   <div className="text-white">
                     <h4 className="hoverTitleGallery">Holi </h4>
@@ -667,7 +667,7 @@ const EventGallery = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                   <div className="text-white">
-                    <p className="dateEvent">29 Mar'24</p>
+                    <p className="dateEvent">29 Mar'25</p>
                   </div>
                   <div className="text-white">
                     <h4 className="hoverTitleGallery">Meditation</h4>
@@ -691,7 +691,7 @@ const EventGallery = () => {
 
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                   <div className="text-white">
-                    <p className="dateEvent">28 Jun'24</p>
+                    <p className="dateEvent">28 Jun'25</p>
                   </div>
                   <div className="text-white">
                     <h4 className="hoverTitleGallery">Cultural Show</h4>
@@ -721,7 +721,7 @@ const EventGallery = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                   <div className="text-white">
-                    <p className="dateEvent">19 Apr'24</p>
+                    <p className="dateEvent">19 Apr'25</p>
                   </div>
                   <div className="text-white">
                     <h4 className="hoverTitleGallery">Baishaki </h4>
@@ -745,7 +745,7 @@ const EventGallery = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between  contentParentGallary rounded-[10px]">
                   <div className="text-white">
-                    <p className="dateEvent">17 May'24</p>
+                    <p className="dateEvent">17 May'25</p>
                   </div>
                   <div className="text-white">
                     <h4 className="hoverTitleGallery">Literary Evening</h4>

@@ -4,17 +4,6 @@ import { FaAngleRight } from "react-icons/fa";
 import Navbar from "../../Shared/Navbar/Navbar";
 
 const HeroSecGallery = () => {
-  const [open, setOpen] = useState(false);
-  const handleMenu = () => {
-    setOpen(true);
-  };
-  const handleClose = () => {
-    setOpen(false);
-  };
-  const menuClose = () => {
-    setOpen(false);
-  };
-
   return (
     <div>
       <div

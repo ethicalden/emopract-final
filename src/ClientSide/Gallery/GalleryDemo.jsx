@@ -148,7 +148,7 @@ const GalleryDemo = () => {
           <img
             src={modalImage}
             alt="Full view"
-            className="h-full w-full object-contain"
+            className="h-full w-full object-cover"
           />
         </div>
       )}
