@@ -62,7 +62,7 @@ const GallerySlider = () => {
 
   return (
     <div className="sectionGap mt-10">
-      <h2 className="text-center text-green-700 text-xl font-bold mb-6">
+      <h2 className="text-center text-[#7EA254] text-[50px] leading-[58px] font-bold mb-[50px]">
         Our Gallery
       </h2>
       <Slider {...settings} ref={sliderRef} slideIndex={currentSlide}>
