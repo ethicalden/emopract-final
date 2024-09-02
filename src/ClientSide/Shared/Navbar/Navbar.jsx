@@ -87,16 +87,15 @@ const Navbar = () => {
                 <Link to="/event" onClick={menuClose}>
                   <li>Events</li>
                 </Link>
+                <Link to="/gallery" onClick={menuClose}>
+                  <li>Gallery</li>
+                </Link>
 
                 {/* <Link to="/blogs" onClick={menuClose}>
                   <li>Blogs</li>/gallery
                 </Link> */}
                 <Link to="/contact" onClick={menuClose}>
                   <li>Contact us</li>
-                </Link>
-
-                <Link to="/gallery" onClick={menuClose}>
-                  <li>Gallery</li>
                 </Link>
               </div>
             </ul>

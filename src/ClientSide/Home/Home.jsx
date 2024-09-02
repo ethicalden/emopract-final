@@ -23,7 +23,7 @@ const Home = () => {
         </title>
         <meta
           name="description"
-          content="Experience the joys of living with our trusted elder care service in Kolkata, where we provide compassionate support to enhance quality of life. Our personalized services are designed to ensure comfort and well-being. It's all about lifestyle—relish the exclusive events specially curated for our seniors."
+          content="Experience joys of living and wellness with emopract - the most trusted professional elder care in Kolkata, we provide both medical and non-medical eldercare service to enhance the quality of life."
         />
         <link
           rel="icon"
