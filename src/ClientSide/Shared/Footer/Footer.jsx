@@ -151,7 +151,7 @@ const Footer = () => {
               <p className="footerMenuText">Ticket Page</p>
             </Link>
             <Link to="/gallery">
-              <li>Gallery</li>
+              <p className="footerMenuText">Gallery</p>
             </Link>
           </div>
 
