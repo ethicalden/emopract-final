@@ -15,7 +15,7 @@ const Contact = () => {
       <NavbarContact></NavbarContact>
       <ContactEvent></ContactEvent>
       <ContactFaq></ContactFaq>
-      <Chatbot></Chatbot>
+      {/* <Chatbot></Chatbot> */}
       <Footer></Footer>
     </div>
   );

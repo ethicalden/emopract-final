@@ -17,7 +17,7 @@ const Service = () => {
       <OurService></OurService>
       <JoysLiving></JoysLiving>
       <Weelness></Weelness>
-      <Chatbot></Chatbot>
+      {/* <Chatbot></Chatbot> */}
       <Footer></Footer>
     </div>
   );

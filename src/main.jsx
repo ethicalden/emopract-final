@@ -17,8 +17,9 @@ import CarrierPage from "./ClientSide/Contact/CarrierPage/Carrier";
 import Ticket from "./ClientSide/Ticket/Ticket";
 import ChatAi from "./ClientSide/Shared/Chatbot/ChatAi";
 import Gallery from "./ClientSide/Gallery/Gallery";
-import DemoMember from "./ClientSide/Membership/DemoMember";
+
 import GalleryDemo from "./ClientSide/Gallery/GalleryDemo";
+import DemoMember from "./ClientSide/Membership/DemoMember";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,11 @@ const router = createBrowserRouter([
   {
     path: "/galleryDemo",
     element: <GalleryDemo></GalleryDemo>,
+  },
+
+  {
+    path: "/demoMember",
+    element: <DemoMember></DemoMember>,
   },
   {
     path: "/career",

@@ -18,7 +18,7 @@ const Membership = () => {
       <MembershipCard></MembershipCard>
       <MembershipEvent></MembershipEvent>
       <MembershipFaq></MembershipFaq>
-      <Chatbot></Chatbot>
+      {/* <Chatbot></Chatbot> */}
       <Footer></Footer>
     </div>
   );

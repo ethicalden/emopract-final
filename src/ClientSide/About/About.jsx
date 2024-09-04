@@ -20,7 +20,7 @@ const About = () => {
       <AboutOurStory></AboutOurStory>
       <AboutOurMission></AboutOurMission>
       <AboutOurTeam></AboutOurTeam>
-      <Chatbot></Chatbot>
+      {/* <Chatbot></Chatbot> */}
       <Footer></Footer>
     </div>
   );

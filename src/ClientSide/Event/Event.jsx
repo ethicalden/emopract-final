@@ -17,7 +17,7 @@ const Event = () => {
       <EventGallery></EventGallery>
       <DiscoverMoment></DiscoverMoment>
       <Reels></Reels>
-      <Chatbot></Chatbot>
+      {/* <Chatbot></Chatbot> */}
       <Footer></Footer>
     </div>
   );
