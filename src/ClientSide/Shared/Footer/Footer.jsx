@@ -132,10 +132,10 @@ const Footer = () => {
               {" "}
               <p className="footerMenuText">Membership</p>
             </Link>
-            {/* <Link to="/blogs">
+            <Link to="/blogs">
               {" "}
               <p className="footerMenuText">Blog</p>
-            </Link> */}
+            </Link>
             <Link to="/event">
               {" "}
               <p className="footerMenuText">Event</p>

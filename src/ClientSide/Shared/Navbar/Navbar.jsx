@@ -91,9 +91,9 @@ const Navbar = () => {
                   <li>Gallery</li>
                 </Link>
 
-                {/* <Link to="/blogs" onClick={menuClose}>
+                <Link to="/blogs" onClick={menuClose}>
                   <li>Blogs</li>/gallery
-                </Link> */}
+                </Link>
                 <Link to="/contact" onClick={menuClose}>
                   <li>Contact us</li>
                 </Link>
@@ -137,9 +137,9 @@ const Navbar = () => {
                   <li>Gallery</li>
                 </Link>
 
-                {/* <Link to="/blogs" onClick={menuClose}>
+                <Link to="/blogs" onClick={menuClose}>
                   <li>Blogs</li>
-                </Link> */}
+                </Link>
                 <Link to="/contact" onClick={menuClose}>
                   <li>Contact us</li>
                 </Link>
