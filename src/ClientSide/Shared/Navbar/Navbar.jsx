@@ -92,7 +92,7 @@ const Navbar = () => {
                 </Link>
 
                 <Link to="/blogs" onClick={menuClose}>
-                  <li>Blogs</li>/gallery
+                  <li>Blogs</li>
                 </Link>
                 <Link to="/contact" onClick={menuClose}>
                   <li>Contact us</li>
