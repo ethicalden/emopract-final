@@ -11,9 +11,7 @@ const Blog = () => {
       <BlogHero></BlogHero>
       <UpcomingBlog></UpcomingBlog>
       <Reels></Reels>
-      <div className="xl:pt-[200px] lg:pt-[150px]">
-        <Footer></Footer>
-      </div>
+      <Footer></Footer>
     </div>
   );
 };
