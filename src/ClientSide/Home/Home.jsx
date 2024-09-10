@@ -36,7 +36,7 @@ const Home = () => {
       <Events />
       <MembershipHome />
       <Reels />
-      {/* <Chatbot /> */}
+      <Chatbot />
       <DiscoverMoment />
       <Footer />
     </div>

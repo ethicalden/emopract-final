@@ -51,10 +51,13 @@ const UpcomingBlog = () => {
                   </div>
                   <div>
                     <h3 className="blogSubtitleText">
-                      ATTENDING MY FRIEND’S GRANDMOTHER’S BIRTHDAY – JOIS DE VIVRE 
+                      ATTENDING MY FRIEND’S GRANDMOTHER’S BIRTHDAY – JOIS DE
+                      VIVRE
                     </h3>
                     <p className="blogParaText">
-                       was fortunate enough to gain a Jois-de-vivre experience in my buddy Monika’s grandma’s 75th birthday party, which reflected the essence of the idea. 
+                      was fortunate enough to gain a Jois-de-vivre experience in
+                      my buddy Monika’s grandma’s 75th birthday party, which
+                      reflected the essence of the idea.
                     </p>
                     <button className="blogBtn">Read More</button>
                   </div>
@@ -77,7 +80,8 @@ const UpcomingBlog = () => {
                       JOY OF LIVING AND WELLNESS FOR ALL
                     </h3>
                     <p className="blogParaText">
-                      The joy of living depicts the path following the practices which lead a person to live a simple life. 
+                      The joy of living depicts the path following the practices
+                      which lead a person to live a simple life.
                     </p>
                     <button className="blogBtn">Read More</button>
                   </div>
@@ -96,11 +100,11 @@ const UpcomingBlog = () => {
                     />
                   </div>
                   <div>
-                    <h3 className="blogSubtitleText">
-                      Spice Up Grandpa 
-                    </h3>
+                    <h3 className="blogSubtitleText">Spice Up Grandpa</h3>
                     <p className="blogParaText">
-                      Grandpa has always been interested in performing and enjoying varied range of activities to rejuvenate or recuperate. 
+                      Grandpa has always been interested in performing and
+                      enjoying varied range of activities to rejuvenate or
+                      recuperate.
                     </p>
                     <button className="blogBtn">Read More</button>
                   </div>
@@ -136,7 +140,7 @@ const UpcomingBlog = () => {
       </div>
 
       {/* for mobile devices */}
-      <div className="sectionGap xl:hidden">
+      {/* <div className="sectionGap xl:hidden">
         <div className="lg:text-center">
           <h3 className="ourBlogTitle">upcoming blog</h3>
         </div>
@@ -239,9 +243,9 @@ const UpcomingBlog = () => {
             </Link>
           </Slider>
         </div>
-      </div>
+      </div> */}
 
-      <div className="xl:block sectionGap hidden">
+      {/* <div className="md:block sectionGap hidden">
         <div className="lg:text-center">
           <h3 className="ourBlogTitle">Trending Blog</h3>
         </div>
@@ -385,17 +389,7 @@ const UpcomingBlog = () => {
             </div>
           </Link>
         </div>
-      </div>
-      {/* video  */}
-      <div className="pt-[60px] md:pt-[80px] xl:pt-[100px] 2xl:pt-[200px] md:h-[450px] 2xl:h-[794px]">
-        <div className="w-full h-[410px] md:pb-[50px] md:h-[450px] lg:h-[600px]  xl:h-[600px] 2xl:h-[794px]">
-          <img
-            className="h-full w-full object-cover rounded-[10px]"
-            src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719386257/Emopract/video_zrgrnw.jpg"
-            alt=""
-          />
-        </div>
-      </div>
+      </div> */}
     </div>
   );
 };
