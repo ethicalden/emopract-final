@@ -10,7 +10,7 @@ const HeroSecGallery = () => {
         className="
             bg-no-repeat   bg-top bg-cover h-[80vh] xs:h-[65vh] lg:h-[100vh] xl:h-[100vh] 2xl:h-[100vh]  flex flex-col justify-between"
         style={{
-          backgroundImage: `url(${"https://i.ibb.co/8dSzJZg/t2-66c42000acf02.webp"})`,
+          backgroundImage: `url(${"https://i.ibb.co.com/fSrDNwY/gallery-1-66e32d10021ca.webp"})`,
         }}
       >
         <Navbar></Navbar>

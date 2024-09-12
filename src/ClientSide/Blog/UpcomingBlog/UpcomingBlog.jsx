@@ -45,7 +45,7 @@ const UpcomingBlog = () => {
                   <div className="h-[284px]">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719494528/Emopract/homeSliderImg_s1d8hx.jpg"
+                      src="https://i.ibb.co.com/mqZt6bR/untitled-2-66e32b9d4d98b.webp"
                       alt=""
                     />
                   </div>
@@ -71,7 +71,7 @@ const UpcomingBlog = () => {
                   <div className="h-[284px]">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719494528/Emopract/homeSliderImg_s1d8hx.jpg"
+                      src="https://i.ibb.co.com/3vg6m1s/2-66e32c48eb974.webp"
                       alt=""
                     />
                   </div>
@@ -95,7 +95,7 @@ const UpcomingBlog = () => {
                   <div className="h-[284px]">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719494528/Emopract/homeSliderImg_s1d8hx.jpg"
+                      src="https://i.ibb.co.com/9VHMBJC/3-66e32c931ea00.webp"
                       alt=""
                     />
                   </div>
