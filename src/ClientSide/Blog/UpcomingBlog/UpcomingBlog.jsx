@@ -125,7 +125,7 @@ const UpcomingBlog = () => {
                   />
                 </div>
                 <div>
-                  <h3 className="blogSubtitleText">Spice Up Grandpa</h3>
+                  <h3 className="blogSubtitleText">SPICE UP GRANDPA</h3>
                   <p className="blogParaText">
                     Grandpa has always been interested in performing and
                     enjoying varied range of activities to rejuvenate or
