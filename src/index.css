@@ -1677,27 +1677,28 @@
   }
 
   .ticketInputDiv {
-    @apply mx-[16px] px-[16px] py-[10px] xs:mx-[16px] xs:px-[16px] xs:py-[10px]
+    @apply mx-[30px] px-[16px] py-[10px] 
+    xs:mx-[30px] xs:px-[16px] xs:py-[10px]
     /* --------- */
-     md:mx-[100px] md:px-[30px] md:py-[20px] 
+     md:mx-[100px] md:px-[30px] md:py-[16px] 
      /* ----- */
      lg:mx-[180px]   lg:px-[40px] lg:py-[25px]
      /* --- */
-     xl:mx-[100px]  xl:px-[40px] xl:py-[20px]
+     xl:mx-[100px]  xl:px-[40px] xl:py-[10px]
      /* ------ */
      2xl:mx-[240px]  2xl:px-[63px] 2xl:py-[40px];
   }
 
   .ticketInput {
-    @apply text-[16px]  leading-[19px] py-[10px]
+    @apply text-[12px]  leading-[19px] py-[10px]
     /* ------ */
-   xs:text-[16px]  xs:leading-[19px] xs:py-[10px]
+   xs:text-[10px]  xs:leading-[19px] xs:py-[10px]
     /* ------ */
-    md:text-[25px] md:leading-[35px] md:py-[10px]
+    md:text-[18px] md:leading-[35px] md:py-[10px]
     /* ----------- */
-    lg:text-[36px] lg:leading-[43px] lg:py-[13px]
+    lg:text-[22px] lg:leading-[35px] lg:py-[13px]
     /* ------------ */
-    xl:text-[25px] xl:leading-[35px] xl:py-[10px]
+    xl:text-[25px] xl:leading-[35px] xl:py-[16px]
     /* ------------ */
     2xl:text-[36px] 2xl:leading-[43px] 2xl:py-[13px]
     /* ----------- */
@@ -1705,17 +1706,17 @@
   }
 
   .ticketButton {
-    @apply text-[16px] leading-[18px] px-[15px] py-[11px] 
+    @apply text-[10px] leading-[18px] px-[10px] py-[11px] 
     /* ------- */
-    xs:text-[12px] xs:leading-[15px] xs:px-[10px] xs:py-[11px] 
+    xs:text-[10px] xs:leading-[15px] xs:px-[10px] xs:py-[10px] 
     
     /* --------------- */
-    md:text-[16px] md:leading-[20px] md:px-[25px] md:py-[16px] 
+    md:text-[16px] md:leading-[20px] md:px-[18px] md:py-[16px] 
     /* ---------- */
     lg:text-[18px] lg:leading-[20px] lg:px-[32px] lg:py-[24px] lg:transition lg:whitespace-nowrap lg:rounded-full
     
     /* ----------- */
-    xl:text-[16px] xl:leading-[20px] xl:px-[25px] xl:py-[20px] 
+    xl:text-[16px] xl:leading-[20px] xl:px-[25px] xl:py-[18px] 
 
     /* ---------- */
     2xl:text-[18px] 2xl:leading-[20px] 2xl:px-[32px] 2xl:py-[24px] 
