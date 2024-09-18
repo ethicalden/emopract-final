@@ -1,6 +1,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Navigate,
+} from "react-router-dom";
 import Contact from "./ClientSide/Contact/Contact";
 import Event from "./ClientSide/Event/Event";
 import Membership from "./ClientSide/Membership/Membership";
@@ -95,6 +99,10 @@ const router = createBrowserRouter([
   {
     path: "/privacy-policy",
     element: <PrivacyPolicy></PrivacyPolicy>,
+  },
+  {
+    path: "/static",
+    element: <Navigate to="/index.html" replace />,
   },
 ]);
 

@@ -1,10 +1,6 @@
 import { useState } from "react";
 import Navbar from "../../Shared/Navbar/Navbar";
 import { TiTickOutline } from "react-icons/ti";
-import {
-  isValidPhoneNumber,
-  parsePhoneNumberFromString,
-} from "libphonenumber-js";
 import { IoCloseSharp } from "react-icons/io5"; // Importing a close icon
 
 const TicketPage = () => {
@@ -14,10 +10,11 @@ const TicketPage = () => {
   const [otpValues, setOtpValues] = useState(Array(6).fill(""));
   const [phoneError, setPhoneError] = useState(""); // State for phone validation
 
-  // Function to validate phone number globally
+  // Function to validate Indian phone number
   const validatePhoneNumber = (phone) => {
-    const parsedPhone = parsePhoneNumberFromString(phone);
-    return parsedPhone ? isValidPhoneNumber(phone) : false;
+    // Check if the number starts with +91 and has 10 digits after the country code
+    const indianPhonePattern = /^\+91\d{10}$/;
+    return indianPhonePattern.test(phone);
   };
 
   const handleInputChange = (e) => {
@@ -27,7 +24,7 @@ const TicketPage = () => {
     // Check if phone number is valid
     if (!validatePhoneNumber(phone)) {
       setPhoneError(
-        "Please enter a valid phone number including country code."
+        "Please enter a valid Indian phone number starting with +91."
       );
     } else {
       setPhoneError("");
@@ -43,7 +40,7 @@ const TicketPage = () => {
   const handleGetOtpClick = () => {
     if (!validatePhoneNumber(inputValue)) {
       setPhoneError(
-        "Please enter a valid phone number including country code."
+        "Please enter a valid Indian phone number starting with +91."
       );
     } else {
       setIsDialog2Open(true);
@@ -72,7 +69,7 @@ const TicketPage = () => {
           <div className="ticketInputDiv mb-[16px] bg-white rounded-full flex items-center w-[100%] xs:w-[100%] md:w-[85%] lg:w-[80%] xl:w-[95%]">
             <input
               type="text"
-              placeholder="Enter phone number with country code"
+              placeholder="Enter your phone number"
               value={inputValue}
               onChange={handleInputChange}
               className="text-[#6E6E6E] flex-grow ticketInput focus:outline-none "
