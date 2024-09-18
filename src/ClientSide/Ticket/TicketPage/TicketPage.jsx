@@ -72,7 +72,7 @@ const TicketPage = () => {
           <div className="ticketInputDiv mb-[16px] bg-white rounded-full flex items-center w-[100%] xs:w-[100%] md:w-[85%] lg:w-[80%] xl:w-[95%]">
             <input
               type="text"
-              placeholder="Enter phone number with country code"
+              placeholder="Enter your phone number"
               value={inputValue}
               onChange={handleInputChange}
               className="text-[#6E6E6E] flex-grow ticketInput focus:outline-none "
