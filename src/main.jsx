@@ -20,6 +20,7 @@ import Gallery from "./ClientSide/Gallery/Gallery";
 
 import GalleryDemo from "./ClientSide/Gallery/GalleryDemo";
 import DemoMember from "./ClientSide/Membership/DemoMember";
+import TicketForm from "./ClientSide/Ticket/TicketForm";
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
   {
     path: "/ticket",
     element: <Ticket></Ticket>,
+  },
+  {
+    path: "/ticketForm",
+    element: <TicketForm></TicketForm>,
   },
   {
     path: "/service",
