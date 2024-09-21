@@ -1,4 +1,3 @@
-import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contact from "./ClientSide/Contact/Contact";
@@ -72,7 +71,7 @@ const router = createBrowserRouter([
     element: <Ticket></Ticket>,
   },
   {
-    path: "/ticketForm",
+    path: "/ticketform",
     element: <TicketForm></TicketForm>,
   },
   {

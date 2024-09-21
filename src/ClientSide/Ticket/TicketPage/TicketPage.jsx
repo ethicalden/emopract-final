@@ -1,10 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import Navbar from "../../Shared/Navbar/Navbar";
+import { Link } from "react-router-dom";
 
 const TicketPage = () => {
   const [inputValue, setInputValue] = useState("");
   const [isDialog2Open, setIsDialog2Open] = useState(false);
   const [isDialog3Open, setIsDialog3Open] = useState(false);
+  const [isDialog4Open, setIsDialog4Open] = useState(false); // Add state for Dialog 4
   const [otpValues, setOtpValues] = useState(Array(6).fill(""));
   const inputRef = useRef(null);
   const [phoneError, setPhoneError] = useState("");
@@ -53,11 +55,28 @@ const TicketPage = () => {
     setOtpValues(Array(6).fill(""));
   };
 
+  const handleCloseDialog4 = () => {
+    setIsDialog4Open(false);
+    setOtpValues(Array(6).fill(""));
+  };
+
+  const validateOtp = (otpArray) => {
+    const validOtp = ["1", "2", "3", "4", "5", "6"]; // Example of correct OTP
+    return otpArray.every((otp, index) => otp === validOtp[index]);
+  };
+
   const handleVerifyClick = () => {
     if (otpValues.every((otp) => otp.trim() !== "")) {
-      setIsDialog2Open(false);
-      setIsDialog3Open(true);
-      setOtpError(""); // Clear OTP error if all fields are filled
+      if (validateOtp(otpValues)) {
+        // OTP is correct, show Dialog 3
+        setIsDialog2Open(false);
+        setIsDialog3Open(true);
+        setOtpError(""); // Clear OTP error if all fields are filled
+      } else {
+        // OTP is incorrect, show Dialog 4
+        setIsDialog2Open(false);
+        setIsDialog4Open(true);
+      }
     } else {
       setOtpError("Please fill up all the digits."); // Set the OTP error message
     }
@@ -96,9 +115,14 @@ const TicketPage = () => {
       verifyButton.addEventListener("click", handleVerifyClick);
     }
 
-    const closeDialogButton = document.querySelector(".handleCloseDialog3");
-    if (closeDialogButton) {
-      closeDialogButton.addEventListener("click", handleCloseDialog3);
+    const closeDialogButton3 = document.querySelector(".handleCloseDialog3");
+    if (closeDialogButton3) {
+      closeDialogButton3.addEventListener("click", handleCloseDialog3);
+    }
+
+    const closeDialogButton4 = document.querySelector(".handleCloseDialog4");
+    if (closeDialogButton4) {
+      closeDialogButton4.addEventListener("click", handleCloseDialog4);
     }
 
     return () => {
@@ -108,8 +132,10 @@ const TicketPage = () => {
         getPassButton.removeEventListener("click", handleGetOtpClick);
       if (verifyButton)
         verifyButton.removeEventListener("click", handleVerifyClick);
-      if (closeDialogButton)
-        closeDialogButton.removeEventListener("click", handleCloseDialog3);
+      if (closeDialogButton3)
+        closeDialogButton3.removeEventListener("click", handleCloseDialog3);
+      if (closeDialogButton4)
+        closeDialogButton4.removeEventListener("click", handleCloseDialog4);
 
       if (getOtpValue) {
         getOtpValue.forEach((input, index) => {
@@ -117,7 +143,7 @@ const TicketPage = () => {
         });
       }
     };
-  }, [inputValue, otpValues, isDialog2Open, isDialog3Open]);
+  }, [inputValue, otpValues, isDialog2Open, isDialog3Open, isDialog4Open]);
 
   return (
     <div className="relative">
@@ -181,29 +207,52 @@ const TicketPage = () => {
                   `
                       : ""
                   }
+                  <div class="flex flex-col items-center">
+          ${
+            isDialog3Open
+              ? `
+          <div class="fixed inset-0 flex justify-center items-center z-[1000]">
+            <div class="py-[50px] xs:px-[20px] xs:py-[25px] px-[24px] md:py-[60px] md:px-[90px] lg:py-[60px] lg:px-[60px] xl:py-[60px] xl:px-[80px] 2xl:py-[80px] 2xl:px-[110px] bg-white shadow-lg rounded-lg relative">
+              
+              <div class="text-center">
+                <form class="text-left">
+                  <div class="flex justify-center items-center w-[80px] h-[80px]  mx-auto mb-[50px]">
+                    <img src="/Animation - 1726910192569.gif" alt="" className="mb-[30px]"/>
+                  </div>
+                  
+                  <p class="pt-[24px] pb-[20px] text-[12px] text-center text-[#1E1E1E99] font-Ubuntu font-normal leading-[18px] lg:text-[24px] lg:leading-[36px] xl:text-[24px] xl:leading-[36px]">
+                    Your OTP has been successfully verified.
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>`
+              : ""
+          }
+          
+                <!-- Dialog 4 for incorrect OTP -->
+                <div class="flex flex-col items-center">
                   ${
-                    isDialog3Open
+                    isDialog4Open
                       ? `
                   <div class="fixed inset-0 flex justify-center items-center z-[1000]">
                     <div class="py-[50px] xs:px-[20px] xs:py-[25px] px-[24px] md:py-[60px] md:px-[90px] lg:py-[60px] lg:px-[60px] xl:py-[60px] xl:px-[80px] 2xl:py-[80px] 2xl:px-[110px] bg-white shadow-lg rounded-lg relative">
-                      <button class="absolute top-[10px] right-[10px] p-2 text-gray-500 hover:text-gray-700 transition">
-                             <span class="iconPlaceholder cursor-pointer TiTickOutline handleCloseDialog3"></span>
-                      </button>
-                      <div class="text-center">
-                        <form class="text-left">
-                          <div class="flex justify-center items-center w-[80px] h-[80px] bg-[#7EA254] rounded-full mx-auto mb-[30px]">
-                          </div>
-                          <h1 class="text-[24px] text-center leading-[28px] font-medium font-Ubuntu lg:text-[30px]">
-                            Thanks For Verifying
-                          </h1>
-                          <p class="pt-[24px] pb-[20px] text-[12px] text-center text-[#1E1E1E99] font-Ubuntu font-normal leading-[18px] lg:text-[24px] lg:leading-[36px] xl:text-[24px] xl:leading-[36px]">
-                            Your phone number has been successfully verified.
-                          </p>
-                        </form>
-                      </div>
-                    </div>
+                      
+                       <div class="text-center">
+                <form class="text-left">
+                  <div class="flex justify-center items-center w-[80px] h-[80px]  mx-auto mb-[50px]">
+                    <img
+            src="/Animation - 1726908974976 (1).gif"
+            alt=""
+          />
+
                   </div>
-                  `
+                  
+                  <p class="pt-[24px] pb-[20px] text-[12px] text-center text-[#1E1E1E99] font-Ubuntu font-normal leading-[18px] lg:text-[24px] lg:leading-[36px] xl:text-[24px] xl:leading-[36px]">
+                    wrong OTP please try again
+                  </p>
+                    </div>
+                  </div>`
                       : ""
                   }
                 </div>
@@ -211,6 +260,27 @@ const TicketPage = () => {
             }}
           ></div>
         </div>
+
+        {/* Render the Link and Button outside dangerouslySetInnerHTML */}
+        {isDialog3Open && (
+          <div className="fixed inset-0 flex justify-center bottom-0 items-center z-[1001]">
+            <Link to="/ticketForm">
+              <button className="bg-[#7EA254] text-white px-[20px] py-[10px] rounded-lg hover:bg-[#acd47e] transition">
+                Open Form
+              </button>
+            </Link>
+          </div>
+        )}
+
+        {isDialog4Open && (
+          <div className="fixed inset-0 flex justify-center bottom-0 items-center z-[1001]">
+            <Link to="/ticket">
+              <button className="bg-[#7EA254] text-white px-[20px] py-[10px] rounded-lg hover:bg-[#acd47e] transition">
+                Go Back
+              </button>
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );
