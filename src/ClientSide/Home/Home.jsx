@@ -25,6 +25,11 @@ const Home = () => {
           name="description"
           content="Experience joys of living and wellness with emopract - the most trusted professional elder care in Kolkata, we provide both medical and non-medical eldercare service to enhance the quality of life."
         />
+
+        <meta
+          name="google-site-verification"
+          content="vdk28t0ORLprYTAp4Y7hKYkxnRKh3kUMkq7a1-Db30k"
+        />
         <link
           rel="icon"
           href="https://i.ibb.co/hCj5nHG/icon-66d577f2b87d4.webp"
