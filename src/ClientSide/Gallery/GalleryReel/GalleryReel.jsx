@@ -6,7 +6,7 @@ const GalleryReel = () => {
       <div className="discoverimg3 w-full relative">
         <video
           className="h-full w-full object-cover rounded-[15px]"
-          src="../../../../public/Images/GalleryReel.mp4" // Accessing directly from public folder
+          src="../../../../public/Images/GalleryReel (2).mp4" // Accessing directly from public folder
           controls
           height={800}
           alt="Gallery Reel"
