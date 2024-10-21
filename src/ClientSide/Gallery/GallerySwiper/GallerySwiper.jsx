@@ -8,35 +8,7 @@ const GalleryDemo = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState("");
   const sliderRef = useRef(null);
-  // old
-  // const images = [
-  //   "https://i.ibb.co/WcM6dNf/whatsapp-image-2-66c2e63151f0f.webp",
-  //   "https://i.ibb.co/Mn3hh8g/img-20240727-011328-66c2e48663bb5.webp",
-  //   "https://i.ibb.co/NtyL9bn/a7406096-66c2e41eb3423.webp",
-  //   "https://i.ibb.co/n0RR8hw/a7405850-66c2e3f298574.webp",
-  //   "https://i.ibb.co/PYCww6Q/a7406383-66c2e6c8eac64.webp",
-  //   "https://i.ibb.co/fDZTC6q/wdw-1142-66c25b7e935d6.webp",
-  //   "https://i.ibb.co/DGsB8p1/sservice-66c374265161f.webp",
-  //   "https://i.ibb.co/WW042Wx/aboutourteam-66c2ea4a36efa.webp",
-  //   "https://i.ibb.co/x69TdwQ/A7406038-1.webp",
-  //   "https://i.ibb.co/XtSvxZh/WDW-0921-1.webp",
-  //   "https://i.ibb.co/x69TdwQ/A7406038-1.webp",
-  //   "https://i.ibb.co/g6jTWB4/IMG-2009.webp",
-  //   "https://i.ibb.co/PrnyML3/A7405947.webp",
-  //   "https://i.ibb.co/x6T29PS/slide3-66c249f946393.webp",
-  //   "https://i.ibb.co/sKzZ31F/slide2-66c249a540200.webp",
-  //   "https://i.ibb.co/x6T29PS/slide3-66c249f946393.webp",
-  //   "https://i.ibb.co/FKtYyVT/serviceswellness2-66c2ea02f0a39.webp",
-  //   "https://i.ibb.co/dtgKgKd/serviceswellness3-66c3a72eb9fe4.webp",
-  //   "https://i.ibb.co/BGB7T7Y/whatsapp-image-2024-07-30-at-14205-pm-1-66c3ab5c96dfd.webp",
-  //   "https://i.ibb.co/wMSSstn/ambulance-66c3a8fbce8fa.webp",
-  //   "https://i.ibb.co/Gdr75vp/serviceswellness1-66c378bf1e1c8.webp",
-  //   "https://i.ibb.co/xjFQn85/wdw-0942-66c3af200be71.webp",
-  //   "https://i.ibb.co/8dSzJZg/t2-66c42000acf02.webp",
-  //   "https://i.ibb.co/Z1wPh5H/slide1-66c2487c625ee.webp",
-  //   "https://i.ibb.co/s688C0L/WDW-0772-3.webp",
-  //   "https://i.ibb.co/605DMmX/homeourservicesfreecon-66c260b27b8a4.webp",
-  // ];
+
   const images = [
     "https://i.ibb.co.com/mTbZPX9/g8-67133cdd2229d.webp",
     "https://i.ibb.co.com/sqS1yFs/g7-67133cd75aaa1.webp",
