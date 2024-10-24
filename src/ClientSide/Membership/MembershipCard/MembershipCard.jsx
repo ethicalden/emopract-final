@@ -401,7 +401,7 @@ const MembershipCard = () => {
               className="h-24 mx-auto mb-4"
             />
           </div>
-          <div className="max-w-md mx-auto border border-8 bg-gray-200  border-[#7EA254] shadow-lg overflow-hidden rounded-[10px]">
+          <div className="max-w-md mx-auto  border-8 bg-gray-200  border-[#7EA254] shadow-lg overflow-hidden rounded-[10px]">
             <div className=" py-6 text-center">
               <h2 className="text-4xl font-bold text-[#7EA254]">
                 ep
