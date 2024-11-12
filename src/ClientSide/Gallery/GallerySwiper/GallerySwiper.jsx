@@ -52,9 +52,11 @@ const GalleryDemo = () => {
     dots: false,
     infinite: false,
     speed: 500,
+    autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+
     beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
   };
 

@@ -41,7 +41,7 @@ const GalleryDemo = () => {
   const settings = {
     dots: false,
     infinite: false,
-    speed: 500,
+    speed: 200,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
