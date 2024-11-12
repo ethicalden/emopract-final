@@ -2,10 +2,9 @@
 import React, { useEffect } from "react";
 import EventHeroSection from "./EventHeroSection/EventHeroSection";
 import EventGallery from "./EventGallery/EventGallery";
-import DiscoverMoment from "./DiscoverMoment/DiscoverMoment";
 import Footer from "./../Shared/Footer/Footer";
-import Chatbot from "../Shared/Chatbot/Chatbot";
 import Reels from "../Home/Reels/Reels";
+import Discover from "./Discover";
 
 const Event = () => {
   useEffect(() => {
@@ -15,7 +14,8 @@ const Event = () => {
     <div>
       <EventHeroSection></EventHeroSection>
       <EventGallery></EventGallery>
-      <DiscoverMoment></DiscoverMoment>
+      {/* <DiscoverMoment></DiscoverMoment> */}
+      <Discover></Discover>
       <Reels></Reels>
       {/* <Chatbot></Chatbot> */}
       <Footer></Footer>

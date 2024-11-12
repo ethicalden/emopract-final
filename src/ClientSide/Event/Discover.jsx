@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 // import discoverMomentPhotoThree from "../../../../public/Images/discover/A7405850.jpg";
 // import membershipBanner from "../../../../public/Images/Home/membership/WhatsApp-Image-2.jpg";
 
-import discoverReel from "../../../../public/Images/reel.mp4";
+import discoverReel from "/Images/reel.mp4";
 
-const DiscoverMoment = () => {
+const Discover = () => {
   return (
     <div className="sectionGap ">
       {/* mobile */}
@@ -80,7 +80,7 @@ const DiscoverMoment = () => {
           />
         </div>
 
-        <Link to="/event">
+        <Link to="/gallery">
           <button className="discoverKnowMore">Know More</button>
         </Link>
       </div>
@@ -101,7 +101,7 @@ const DiscoverMoment = () => {
               a visual journey through our gallery
             </h2>
 
-            <Link to="/event">
+            <Link to="/gallery">
               <button className="discoverKnowMore">Know More</button>
             </Link>
           </div>
@@ -179,4 +179,4 @@ const DiscoverMoment = () => {
   );
 };
 
-export default DiscoverMoment;
+export default Discover;
