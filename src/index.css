@@ -373,13 +373,8 @@
     font-Ubuntu font-bold text-[#7EA254];
   }
 
-  /* .footerLogoparent {
-    @apply h-[30px] w-[165px];
-  } */
-
   .footerLogoparent {
-    /* @apply h-[30px] w-[165px]; */
-    @apply h-[2.5rem] w-[13rem];
+    @apply h-[30px] w-[165px];
   }
 
   .footerSocailIcon {
