@@ -506,7 +506,8 @@
   .discoverimg3 {
     @apply h-[366px]
     2xl:h-[750px]
-    xl:h-[600px]
+    /* xl:h-[600px] */
+    xl:h-[485px]
     lg:h-[465px]
     md:h-[310px];
   }
