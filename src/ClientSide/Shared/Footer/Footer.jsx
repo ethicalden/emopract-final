@@ -315,17 +315,17 @@ const Footer = () => {
               <div className=" ">
                 <div className="flex  pt-[20px] pb-[15px] gap-x-[10px]">
                   <a href="https://www.facebook.com/p/Emopract-61561294300993/">
-                    <FaFacebook size={20} className="footerSocailIcon" />
+                    <FaFacebook size={28} className="footerSocailIcon" />
                   </a>
                   <a href="https://www.instagram.com/emopract_official/">
-                    <FaInstagram size={20} className="footerSocailIcon" />
+                    <FaInstagram size={28} className="footerSocailIcon" />
                   </a>
 
                   <a href="https://www.linkedin.com/company/emopract/?viewAsMember=true">
-                    <FaLinkedinIn size={20} className="footerSocailIcon" />
+                    <FaLinkedinIn size={28} className="footerSocailIcon" />
                   </a>
                   <a href="https://www.youtube.com/channel/UCxCh3hV_bvIUscScLCGI65Q">
-                    <FaYoutube size={20} className="footerSocailIcon" />
+                    <FaYoutube size={28} className="footerSocailIcon" />
                   </a>
                 </div>
               </div>
