@@ -315,17 +315,17 @@ const Footer = () => {
               <div className=" ">
                 <div className="flex  pt-[20px] pb-[15px] gap-x-[10px]">
                   <a href="https://www.facebook.com/p/Emopract-61561294300993/">
-                    <FaFacebook size={28} className="footerSocailIcon" />
+                    <FaFacebook size={25} className="footerSocailIcon" />
                   </a>
                   <a href="https://www.instagram.com/emopract_official/">
-                    <FaInstagram size={28} className="footerSocailIcon" />
+                    <FaInstagram size={25} className="footerSocailIcon" />
                   </a>
 
                   <a href="https://www.linkedin.com/company/emopract/?viewAsMember=true">
-                    <FaLinkedinIn size={28} className="footerSocailIcon" />
+                    <FaLinkedinIn size={25} className="footerSocailIcon" />
                   </a>
                   <a href="https://www.youtube.com/channel/UCxCh3hV_bvIUscScLCGI65Q">
-                    <FaYoutube size={28} className="footerSocailIcon" />
+                    <FaYoutube size={25} className="footerSocailIcon" />
                   </a>
                 </div>
               </div>
@@ -348,40 +348,6 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            {/* <div>
-            <h2 className="footerMenuTextTitle">link</h2>
-            <Link to="/About">
-              <p className="footerMenuText">About Us</p>
-            </Link>
-            <Link to="/service">
-              <p className="footerMenuText">Services</p>
-            </Link>
-            <Link to="/membership">
-              {" "}
-              <p className="footerMenuText">Membership</p>
-            </Link>
-            <Link to="/blogs">
-              {" "}
-              <p className="footerMenuText">Blog</p>
-            </Link>
-            <Link to="/event">
-              {" "}
-              <p className="footerMenuText">Event</p>
-            </Link>
-            <Link to="/contact">
-              <p className="footerMenuText">Contact Us</p>
-            </Link>
-
-            <Link to="/career">
-              <p className="footerMenuText">Career</p>
-            </Link>
-            <Link to="/ticket">
-              <p className="footerMenuText">Ticket Page</p>
-            </Link>
-            <Link to="/gallery">
-              <p className="footerMenuText">Gallery</p>
-            </Link>
-          </div> */}
           </div>
         </div>
 
@@ -416,24 +382,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* <div>
-          <div>
-            <h2 className="footerMenuTextTitle">newsletter</h2>
-
-            <p className="footerMenuText">Please mail us</p>
-          </div>
-          <div className="relative inline-block">
-            <input
-              type="text"
-              placeholder="enter your mail here"
-              className="text-[8px] md:text-[10px] font-Varela p-[10px] pr-[40px] font-normal w-full rounded-full outline-none mt-[15px]"
-            />
-            <div className="absolute right-2 top-1/2 transform -translate-y-1/4 h-[25px] w-[25px] rounded-full bg-black flex justify-center items-center outline-none">
-              <IoSend className="text-[#7EA254] text-[12px]" />
-            </div>
-          </div>
-        </div> */}
-
           <div>
             <h2 className="footerMenuTextTitle">link</h2>
             <Link to="/About">
@@ -468,22 +416,6 @@ const Footer = () => {
               <p className="footerMenuText">Gallery</p>
             </Link>
           </div>
-        </div>
-
-        {/* term */}
-        <div className="px-[30px] md:px-[50px]  lg:px-[60px] xl:px-[100px] pb-[25px]">
-          {/* <div
-          className="  2xl:py-[35px]   
-           "
-        >
-          <Link to="/terms-of-use">
-            <p className="footerMenuText">Terms & Conditions </p>
-          </Link> */}
-          {/* <p className="footerMenuText">News & Letters </p> */}
-          {/* <Link to="/privacy-policy">
-            <p className="footerMenuText">Privacy Policy</p>
-          </Link>
-        </div> */}
         </div>
       </div>
 
