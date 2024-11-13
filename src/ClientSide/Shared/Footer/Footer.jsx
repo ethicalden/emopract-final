@@ -307,7 +307,7 @@ const Footer = () => {
               <div className="footerLogoparent">
                 <img
                   className="h-full w-full object-cover "
-                  src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719302631/Emopract/mHeroLogo_techun.png"
+                  src="/Images/emopractLogoUp.png"
                   alt=""
                 />
               </div>
@@ -427,7 +427,7 @@ const Footer = () => {
               <div className="footerLogoparent">
                 <img
                   className="h-full w-full object-cover "
-                  src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719302631/Emopract/mHeroLogo_techun.png"
+                  src="/Images/emopractLogoUp.png"
                   alt=""
                 />
               </div>
