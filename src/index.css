@@ -378,7 +378,8 @@
   } */
 
   .footerLogoparent {
-    @apply h-[30px] w-[165px];
+    /* @apply h-[30px] w-[165px]; */
+    @apply h-[2.5rem] w-[13rem];
   }
 
   .footerSocailIcon {
