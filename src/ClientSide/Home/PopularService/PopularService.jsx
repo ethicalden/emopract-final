@@ -646,16 +646,16 @@ const PopularService = () => {
                   <p className="getIntouchService">Get In Touch</p>
                   <h3 className="getTitle">free consultation</h3>
                   <p className="getParaText">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout.
+                    We understand that you may need more details on our services
+                    and we care to clarify all of your doubts. Please reach out
+                    and help us to schedule a call with you.
                   </p>
                 </div>
 
                 <div className="getinTmgParent">
                   <img
                     className="w-full h-full object-cover rounded-[10px]"
-                    src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719507389/Emopract/freeConsultation_uji0kh.jpg"
+                    src="https://i.ibb.co/605DMmX/homeourservicesfreecon-66c260b27b8a4.webp"
                     alt=""
                   />
                 </div>
