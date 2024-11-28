@@ -294,7 +294,7 @@ const GalleryDemo = () => {
             className={`md:w-10 md:h-10  h-6 rounded md:rounded-full  ${
               currentSlide === index
                 ? "bg-[#7EA254] text-white"
-                : "bg-white md:bg-gray-200  text-gray-600 hover:bg-[#7EA254] hover:text-white transition duration-300"
+                : "bg-gray-200  text-gray-600 hover:bg-[#7EA254] hover:text-white transition duration-300"
             }`}
             onClick={() => sliderRef.current.slickGoTo(index)}
           >
