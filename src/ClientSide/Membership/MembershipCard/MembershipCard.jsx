@@ -153,7 +153,7 @@ const MembershipCard = () => {
                             Full Name
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="text"
                             name="from_name"
                             id="full_name"
@@ -169,7 +169,7 @@ const MembershipCard = () => {
                             Phone Number
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="text"
                             name="from_number"
                             id="mobile_number"
@@ -185,7 +185,7 @@ const MembershipCard = () => {
                             Email Address
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="email"
                             name="from_email"
                             id="email"
@@ -202,7 +202,7 @@ const MembershipCard = () => {
                             Message
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="text"
                             name="from_message"
                             id="from_message"
@@ -465,7 +465,7 @@ const MembershipCard = () => {
                             Full Name
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="text"
                             name="from_name"
                             id="full_name"
@@ -481,7 +481,7 @@ const MembershipCard = () => {
                             Phone Number
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="text"
                             name="from_number"
                             id="mobile_number"
@@ -497,7 +497,7 @@ const MembershipCard = () => {
                             Email Address
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild  text-black"
                             type="email"
                             name="from_email"
                             id="email"
@@ -514,7 +514,7 @@ const MembershipCard = () => {
                             Message
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="text"
                             name="from_message"
                             id="from_message"
@@ -766,7 +766,7 @@ const MembershipCard = () => {
                             Full Name
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="text"
                             name="from_name"
                             id="full_name"
@@ -782,7 +782,7 @@ const MembershipCard = () => {
                             Phone Number
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="text"
                             name="from_number"
                             id="mobile_number"
@@ -798,7 +798,7 @@ const MembershipCard = () => {
                             Email Address
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="email"
                             name="from_email"
                             id="email"
@@ -815,7 +815,7 @@ const MembershipCard = () => {
                             Message
                           </label>
                           <input
-                            className="contactInpufeild "
+                            className="contactInpufeild text-black"
                             type="text"
                             name="from_message"
                             id="from_message"
