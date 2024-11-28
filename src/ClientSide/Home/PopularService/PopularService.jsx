@@ -488,43 +488,180 @@ const PopularService = () => {
         </div>
 
         {/* large slider  */}
-        <div className="slider-container hidden md:block">
-          <Slider {...settingsLarge}>
-            {joyItems.map((item, index) => (
-              <div key={index} className="px-2">
-                <div>
-                  <div className="joyofLivingsSliderImgParent">
-                    <img
-                      className="h-full w-full object-cover rounded-[10px]"
-                      src={item.LgImg}
-                      alt={item.title}
-                    />
-                  </div>
-                  <div className="text-center">
-                    <h3 className="joysFirstSliderTitle">{item.title}</h3>
-                    <p className="joysFirstSliderSubtitle text-center">
-                      {item.subtitle}
-                      <span>
-                        {expandedIndex === index && (
-                          <p className="joysExtendedSubtitle">
-                            {item.extendedSubtitle}
-                          </p>
-                        )}
-                        {expandedIndex !== index && (
-                          <button
-                            className="joysFirstSliderMorebtn cursor-pointer"
-                            onClick={(e) => handleReadMoreClick(e, index)}
-                          >
-                            Read More
-                          </button>
-                        )}
-                      </span>
-                    </p>
+        {/* <div className=' hidden md:block bg-[url("https://res.cloudinary.com/dshn2s0tc/image/upload/v1719506684/Emopract/cardBg_g8b4cu.png")] bg-no-repeat bg-cover bg-center h-[1200px] '> */}
+
+        <div className=" hidden md:block ">
+          <div className="slider-container">
+            <Slider {...settingsLarge}>
+              {joyItems.map((item, index) => (
+                <div key={index} className="px-2">
+                  <div>
+                    <div className="joyofLivingsSliderImgParent">
+                      <img
+                        className="h-full w-full object-cover rounded-[10px]"
+                        src={item.LgImg}
+                        alt={item.title}
+                      />
+                    </div>
+                    <div className="text-center">
+                      <h3 className="joysFirstSliderTitle">{item.title}</h3>
+                      <p className="joysFirstSliderSubtitle text-center">
+                        {item.subtitle}
+                        <span>
+                          {expandedIndex === index && (
+                            <p className="joysExtendedSubtitle">
+                              {item.extendedSubtitle}
+                            </p>
+                          )}
+                          {expandedIndex !== index && (
+                            <button
+                              className="joysFirstSliderMorebtn cursor-pointer"
+                              onClick={(e) => handleReadMoreClick(e, index)}
+                            >
+                              Read More
+                            </button>
+                          )}
+                        </span>
+                      </p>
+                    </div>
                   </div>
                 </div>
+              ))}
+            </Slider>
+          </div>
+
+          {/* <div className=' hidden md:block bg-[url("https://res.cloudinary.com/dshn2s0tc/image/upload/v1719506684/Emopract/cardBg_g8b4cu.png")] bg-no-repeat bg-cover bg-center h-[550px] '>
+            <div className="sectionGap   relative flex flex-row justify-center items-center gap-x-[100px]">
+              <div className="  w-full">
+                <div className="bg-[#F2F2F2]  xl:pb-[50px] lg:pb-[65px]  rounded-[10px]">
+                  <h3 className="eventCardTitle xl:pt-[50px]   lg:pt-[65px]  text-[#7EA254]">
+                    request for a session!
+                  </h3>
+                  <form className="space-y-[20px] mt-[15px]">
+                    <div className="inputParent">
+                      <label className="formTitle text-black" htmlFor="">
+                        Full Name
+                      </label>
+                      <input className="contactInpufeild" type="text" />
+                    </div>
+                    <div className="inputParent">
+                      <label className="formTitle text-black" htmlFor="">
+                        Phone Number
+                      </label>
+                      <input className="contactInpufeild" type="text" />
+                    </div>
+                    <div className="inputParent">
+                      <label className="formTitle text-black" htmlFor="">
+                        Email Address
+                      </label>
+                      <input className="contactInpufeild" type="text" />
+                    </div>
+                    <div className="inputParent">
+                      <label className="formTitle text-black" htmlFor="">
+                        {" "}
+                        Message
+                      </label>
+                      <input className="contactInpufeild" type="text" />
+                    </div>
+
+                    <div className="inputParent pt-[30px] pb-[15px]">
+                      <button className="contactSendBtn bg-[#7EA254] text-white">
+                        Send Now
+                      </button>
+                    </div>
+                  </form>
+                </div>
               </div>
-            ))}
-          </Slider>
+
+              <div className="h-full">
+                <div className="">
+                  <p className="getIntouchService">Get In Touch</p>
+                  <h3 className="getTitle">free consultation</h3>
+                  <p className="getParaText">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                </div>
+
+                <div className="getinTmgParent">
+                  <img
+                    className="w-full h-full object-cover rounded-[10px]"
+                    src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719507389/Emopract/freeConsultation_uji0kh.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div> */}
+
+          <div className=' hidden md:block bg-[url("https://res.cloudinary.com/dshn2s0tc/image/upload/v1719506684/Emopract/cardBg_g8b4cu.png")] bg-no-repeat bg-cover bg-center xl:h-[650px] 2xl:h-[800px]  lg:h-[660px] md:h-[655px]'>
+            <div className="sectionGap pt-[15px]   flex flex-row justify-center items-center xl:gap-x-[100px]   lg:gap-x-[50px] md:gap-x-[50px]">
+              <div className="  w-full pt-[50px]">
+                <div
+                  className="bg-[#F2F2F2] pt-[50px] 2xl:max-w-[800px] xl:max-w-[500px]  
+                 mx-auto  rounded-[10px]"
+                >
+                  <h3 className="eventCardTitle   text-[#7EA254]">
+                    request for a session!
+                  </h3>
+                  <form className="space-y-[20px] mt-[15px]">
+                    <div className="inputParent">
+                      <label className="formTitle text-black" htmlFor="">
+                        Full Name
+                      </label>
+                      <input className="contactInpufeild" type="text" />
+                    </div>
+                    <div className="inputParent">
+                      <label className="formTitle text-black" htmlFor="">
+                        Phone Number
+                      </label>
+                      <input className="contactInpufeild" type="text" />
+                    </div>
+                    <div className="inputParent">
+                      <label className="formTitle text-black" htmlFor="">
+                        Email Address
+                      </label>
+                      <input className="contactInpufeild" type="text" />
+                    </div>
+                    <div className="inputParent">
+                      <label className="formTitle text-black" htmlFor="">
+                        {" "}
+                        Message
+                      </label>
+                      <input className="contactInpufeild" type="text" />
+                    </div>
+
+                    <div className="inputParent pt-[30px] pb-[15px]">
+                      <button className="contactSendBtn bg-[#7EA254] text-white">
+                        Send Now
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div className="h-full">
+                <div className="">
+                  <p className="getIntouchService">Get In Touch</p>
+                  <h3 className="getTitle">free consultation</h3>
+                  <p className="getParaText">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                </div>
+
+                <div className="getinTmgParent">
+                  <img
+                    className="w-full h-full object-cover rounded-[10px]"
+                    src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719507389/Emopract/freeConsultation_uji0kh.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

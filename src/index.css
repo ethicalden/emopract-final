@@ -1384,6 +1384,20 @@
     font-Varela font-medium text-white;
   }
 
+  .getIntouchService {
+    @apply text-[14px] leading-[14px] pb-[15px] 
+    /* ========== */
+    md:text-[14px] md:leading-[16px] md:pb-[15px]
+    /* ========== */
+    lg:text-[16px] lg:leading-[18px] lg:pb-[25px]
+    /* ========== */
+    xl:text-[18px] xl:leading-[20px] xl:pb-[30px]
+    /* ========== */
+    2xl:text-[18px] 2xl:leading-[26px] 2xl:pb-[50px]
+    /* =========== */
+    font-Varela font-medium text-white;
+  }
+
   .getTitle {
     @apply text-[30px] leading-[35px] pb-[15px] md:pt-0
     /* =========== */
