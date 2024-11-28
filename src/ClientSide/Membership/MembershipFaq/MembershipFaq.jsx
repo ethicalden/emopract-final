@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa";
 import { MdOutlineMessage } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const MembershipFaq = () => {
   const [openAccordion, setOpenAccordion] = useState(0);
@@ -293,7 +294,10 @@ const MembershipFaq = () => {
               <MdOutlineMessage className="faqmessageIcon"></MdOutlineMessage>
             </div>
             <h3 className="faqboxTitle">Do you have more Question?</h3>
-            <button className="faqContactBtn">Contact Us</button>
+
+            <Link to="/contact">
+              <button className="faqContactBtn">Contact Us</button>
+            </Link>
           </div>
         </div>
       </div>
