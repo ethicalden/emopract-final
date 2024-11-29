@@ -420,7 +420,7 @@ const Footer = () => {
       </div>
 
       {/* large device */}
-      <div className="hidden md:block pt-[374px] md:pt-[500px] lg:pt-[450px] xl:pt-[600px] 2xl:pt-[700px]">
+      <div className="hidden lg:block pt-[374px] md:pt-[500px] lg:pt-[450px] xl:pt-[600px] 2xl:pt-[700px]">
         <div>
           <div className="px-[30px] md:px-[50px]  lg:px-[60px] xl:px-[100px] pb-[25px] flex justify-between">
             <div>
