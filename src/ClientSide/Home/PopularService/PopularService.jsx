@@ -111,6 +111,7 @@ const PopularService = () => {
 
   // Function to handle the "Got it" button click
   const handleGotItClick = () => {
+    form.current.reset();
     setModalVisible(false);
   };
 
