@@ -202,7 +202,7 @@ const CarrierPage = () => {
               /> */}
             <div className="inputParent gap-[15px]">
               <label className="formTitle" htmlFor="cv_url">
-                Please attach your CV
+                Please attach your CV link or mail it to hr@emopract.com
               </label>
 
               <input
