@@ -39,9 +39,15 @@ const CarrierPage = () => {
   };
 
   return (
-    <div className="sectionGap">
+    <div
+      className="sectionGap  mb-[60px] 
+    md:mb-[80px] 
+     lg:mb-[80px]
+    xl:mb-[100px]
+    2xl:mb-[100px]"
+    >
       <div className="lg:grid grid-cols-2 justify-between items-center">
-        <div>
+        <div className="text-center">
           <p className="contactEventSmall">Get hired!</p>
           <h3 className="conatactEventTitle">Apply here!</h3>
         </div>
