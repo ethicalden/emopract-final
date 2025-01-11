@@ -53,9 +53,10 @@ const Events = () => {
       </div>
 
       {/* =========large slider ==== */}
-      <div className="slider-container hidden md:block">
-        <Slider {...settings}>
-          <div className='rounded-[10px]  bg-[url("https://i.ibb.co/1Z3MXFw/image-01-2-66c2dfebaa657.webp")] bg-no-repeat  bg-center bg-cover h-[504px] '>
+
+      <div className="slider-container hidden md:block ">
+        <Slider {...settings} className=" ">
+          <div className='rounded-[10px]   bg-[url("https://i.ibb.co/1Z3MXFw/image-01-2-66c2dfebaa657.webp")] bg-no-repeat  bg-center bg-cover h-[504px] '>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Independence Day</h3>
