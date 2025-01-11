@@ -114,7 +114,11 @@ const CarrierPage = () => {
               <label className="formTitle" htmlFor="occupation">
                 Are you a student or a working professional?
               </label>
-              <select name="from_occupation" id="occupation">
+              <select
+                name="from_occupation"
+                id="occupation"
+                className="rounded-[2px] p-[4px]"
+              >
                 <option value="Student">Student</option>
                 <option value="Working Professional">
                   Working Professional
@@ -137,7 +141,11 @@ const CarrierPage = () => {
               <label className="formTitle" htmlFor="employment_type">
                 Are you looking for an internship or full-time employment?
               </label>
-              <select name="from_employment_type" id="employment_type">
+              <select
+                name="from_employment_type"
+                id="employment_type"
+                className="rounded-[2px] p-[4px]"
+              >
                 <option value="Internship">Internship</option>
                 <option value="Full time">Full time</option>
               </select>
@@ -146,7 +154,11 @@ const CarrierPage = () => {
               <label className="formTitle" htmlFor="role_interest">
                 What type of role are you interested in?
               </label>
-              <select name="from_role_interest" id="role_interest">
+              <select
+                name="from_role_interest"
+                id="role_interest"
+                className="rounded-[2px] p-[4px]"
+              >
                 <option value="Marketing & Promotion">
                   Marketing & Promotion
                 </option>
@@ -185,7 +197,11 @@ const CarrierPage = () => {
               <label className="formTitle" htmlFor="join_date">
                 By when can you join us?
               </label>
-              <select name="from_join_date" id="join_date">
+              <select
+                name="from_join_date"
+                id="join_date"
+                className="rounded-[2px] p-[4px]"
+              >
                 <option value="Immediately">Immediately</option>
                 <option value="15days">15 days</option>
                 <option value="30days">30 days</option>
@@ -204,15 +220,18 @@ const CarrierPage = () => {
               /> */}
             <div className="inputParent gap-[15px]">
               <label className="formTitle" htmlFor="cv_url">
-                Please attach your CV
+                Please mail your CV to{" "}
+                <a href="mailto:hr@emopract.com" className="underline">
+                  hr@emopract.com
+                </a>
               </label>
 
-              <input
+              {/* <input
                 className="contactInpufeild h-[17px]"
                 type="text"
                 name="cv_url"
                 id="cv_url"
-              />
+              /> */}
             </div>
 
             <div className="inputParent pt-[30px] pb-[15px] md:pt-[35px] md:pb-[20px] lg:pt-[40px] lg:pb-[20px] xl:pt-[40px] xl:pb-[20px]  2xl:pb-[30px]">
