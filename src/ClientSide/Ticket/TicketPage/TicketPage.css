@@ -1,0 +1,404 @@
+/* General Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.relative {
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  height: 80vh;
+  background-color: #7ea254;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticketInputDiv {
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 10px 16px;
+  margin: 16px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 640px) {
+  /* xs */
+  .ticketInputDiv {
+    padding: 10px 16px;
+    margin: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* md */
+  .ticketInputDiv {
+    padding: 20px 30px;
+    margin: 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* lg */
+  .ticketInputDiv {
+    padding: 25px 40px;
+    margin: 180px;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* xl */
+  .ticketInputDiv {
+    padding: 20px 40px;
+    margin: 100px;
+  }
+}
+
+@media (min-width: 1536px) {
+  /* 2xl */
+  .ticketInputDiv {
+    padding: 40px 63px;
+    margin: 240px;
+  }
+}
+
+.ticketInput {
+  flex-grow: 1;
+  color: #6e6e6e;
+  font-size: 12px;
+  line-height: 19px;
+  padding: 10px;
+}
+
+/* Responsive ticketInput font size */
+@media (min-width: 640px) {
+  /* xs */
+  .ticketInput {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* md */
+  .ticketInput {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* lg */
+  .ticketInput {
+    font-size: 22px;
+    line-height: 35px;
+    padding: 13px;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* xl */
+  .ticketInput {
+    font-size: 30px;
+    line-height: 35px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1536px) {
+  /* 2xl */
+  .ticketInput {
+    font-size: 36px;
+    line-height: 43px;
+    padding: 13px;
+  }
+}
+
+.ticketButton {
+  background-color: #7ea254;
+  color: white;
+  padding: 11px 10px;
+  font-size: 10px;
+  line-height: 18px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+/* Responsive ticketButton */
+@media (min-width: 640px) {
+  /* xs */
+  .ticketButton {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 11px 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* md */
+  .ticketButton {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 16px 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* lg */
+  .ticketButton {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 24px 32px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* xl */
+  .ticketButton {
+    font-size: 25px;
+    line-height: 20px;
+    padding: 30px 25px;
+  }
+}
+
+@media (min-width: 1536px) {
+  /* 2xl */
+  .ticketButton {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 24px 32px;
+  }
+}
+
+.phoneError {
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Dialog 2 Styles */
+.dialog2 {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog2-content {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Responsive dialog2-content */
+@media (min-width: 640px) {
+  /* xs */
+  .dialog2-content {
+    padding: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* md */
+  .dialog2-content {
+    padding: 60px 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* lg */
+  .dialog2-content {
+    padding: 60px 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* xl */
+  .dialog2-content {
+    padding: 30px 30px;
+  }
+}
+
+@media (min-width: 1536px) {
+  /* 2xl */
+  .dialog2-content {
+    padding: 80px 110px;
+  }
+}
+
+.dialog2-content h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.dialog2-content p {
+  margin: 24px 0;
+  font-size: 12px;
+  color: #1e1e1e99;
+}
+
+@media (min-width: 1536px) {
+  /* 2xl */
+  .dialog2-content p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+/* OTP Input Boxes */
+.otp-container {
+  display: flex;
+  gap: 10px;
+}
+
+.otp-input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #1e1e1e99;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  /* md */
+  .otp-input {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* lg */
+  .otp-input {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+/* Dialog 3 Styles */
+.dialog3 {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog3-content {
+  background-color: white;
+  padding: 60px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+/* Responsive dialog3-content */
+@media (min-width: 640px) {
+  /* xs */
+  .dialog3-content {
+    padding: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* md */
+  .dialog3-content {
+    padding: 60px 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* lg */
+  .dialog3-content {
+    padding: 60px 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* xl */
+  .dialog3-content {
+    padding: 60px 80px;
+  }
+}
+
+@media (min-width: 1536px) {
+  /* 2xl */
+  .dialog3-content {
+    padding: 80px 110px;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+}
+
+.closeButton:hover {
+  color: #333;
+}
+
+.icon-container {
+  width: 80px;
+  height: 80px;
+  background-color: #7ea254;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.tickIcon {
+  font-size: 35px;
+  color: white;
+  display: block;
+  text-align: center;
+  line-height: 80px;
+}
+
+.dialog3-content h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.dialog3-content p {
+  margin: 24px 0;
+  font-size: 12px;
+  color: #1e1e1e99;
+}
+
+@media (min-width: 768px) {
+  /* md */
+  .dialog3-content p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1536px) {
+  /* 2xl */
+  .dialog3-content p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}

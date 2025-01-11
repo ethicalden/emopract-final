@@ -1,0 +1,28 @@
+1. Navbar White background (Done)
+2. Hero Section Image full device width (Done)
+
+4. Button bug resolved (Done)
+5. Photo Change (done)
+6. Footer WhatsApp icon change to youtube (Done)
+7. blog page delete (Done)
+8. About Us Person name green, para text white (Done)
+9. Chatbot (done)
+10. Our membership paratext delete (done)
+11. trending events serial change (done)
+12. contact us change (Done)
+13. membership page photo change (done)
+14. let's chat - paratext delete. (done)
+15. contact us page number email id change (Done)
+16. footer new section add (Done)
+17. faq 1st question close (Done)
+18. appointment button delete (Done)
+19. events page image change (Done)
+20. event data and para text insert (Done)
+21. text up down in events/service page (one of the page) (Done)
+
+3. All paragraph font size 14px, line height 20px (Not Done)
+22. Section Gap Adjust for whole website & Desktop Version (Not Done)
+23. Footer  happy to connect section text change (Not Done)
+24. Image link check for whole website. Adjust Broken Image (Not Done)
+25. Event Date Change in event page
+26. Event paratext add in trending event
